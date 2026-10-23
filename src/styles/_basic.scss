@@ -1,0 +1,74 @@
+// Variables tomadas de parlamentia-web/src/styles/config/basic.scss.
+// Sólo las que usa el bloque b-declaracion y la página que lo envuelve,
+// con los mismos nombres y valores, para que declaracion-bienes.scss
+// siga siendo comparable línea a línea con el original.
+
+// colores — primary
+$primary: #01f3b3;
+$primary-dark: #07d49e;
+$blueberry: #0086e7;
+
+// colores — secundarios
+$white: #ffffff;
+$white60: rgba($white, 0.6);
+$gray: #f6f6f6;
+$dark: #1f1f1f;
+$dark80: rgba($dark, 0.8);
+$dark60: rgba($dark, 0.6);
+$dark10: rgba($dark, 0.1);
+$dark-soft: #cccccc;
+$space: #0f0f0f;
+$black: #000000;
+
+// tipografía
+$ff-main: "Graphik", sans-serif;
+
+$fs-xxxxl: 40px;
+$fs-xxxl: 32px;
+$fs-xxl: 24px;
+$fs-xl: 20px;
+$fs-l: 18px;
+$fs-m: 16px;
+$fs-s: 14px;
+$fs-xs: 12px;
+
+$fw-bold: 700;
+$fw-semibold: 600;
+$fw-medium: 500;
+$fw-normal: 400;
+
+$lh-medium: 1.5;
+
+// espaciado
+$v-unit-xs: 8px;
+$v-unit-s: 10px;
+$v-unit: 16px;
+$v-unit-m: 20px;
+$v-unit-l: 32px;
+$v-unit-xl: 64px;
+
+$h-unit-xs: 8px;
+$h-unit-s: 10px;
+$h-unit: 16px;
+$h-unit-m: 20px;
+$h-unit-l: 32px;
+$h-unit-xl: 64px;
+
+// bordes y transiciones
+$border-xs: 1px solid;
+$ts-fast: 0.3s;
+
+// layout
+$container-width: 1125px;
+
+// ─── Añadidos en el rediseño, no existen en el basic.scss original ───
+
+// Filete de documento. $dark10 a 1px sobre blanco casi no se ve, y aquí
+// los filetes son la estructura: no hay sombras ni esquinas redondeadas
+// que separen una cosa de otra.
+$rule: rgba($dark, 0.14);
+$rule-strong: rgba($dark, 0.3);
+
+// $ts-fast (0.3s) se arrastra en un hover; para el estado de un botón o
+// una fila, esto.
+$ts-ui: 140ms;

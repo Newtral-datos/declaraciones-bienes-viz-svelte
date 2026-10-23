@@ -1,0 +1,3772 @@
+[
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000316/000316_001_e_0001872_20230921.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/santiago-abascal-conde",
+    "nombre": "Santiago Abascal Conde",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/317_15.jpg",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "21/09/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "16/08/2023",
+    "cargo": "Diputado",
+    "circunscripcion": "Madrid",
+    "rentas": [
+      {
+        "concepto": "Asalariado de Vox",
+        "euros": 37357.8
+      },
+      {
+        "concepto": "Presidente de Vox",
+        "euros": 18000
+      }
+    ],
+    "irpf_pagado": 41784.59,
+    "bienes_inmuebles": [
+      {
+        "clase": "VIVIENDA",
+        "situacion": "Madrid",
+        "fecha_adquisicion": "23/07/2020",
+        "derecho_titulo": "COMPRAVENTA 40% PROPIEDAD"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "CUENTAS CORRIENTES",
+        "saldo_euros": 29017.94
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "vehiculos": [
+      {
+        "descripcion": "JEEP COMMANDER",
+        "fecha_adquisicion": "15/09/2015"
+      },
+      {
+        "descripcion": "BMW R80RT",
+        "fecha_adquisicion": "02/02/2016"
+      }
+    ],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario",
+        "fecha_concesion": "06/07/2020",
+        "importe_concedido_euros": 368000,
+        "saldo_pendiente_euros": 341300
+      }
+    ],
+    "observaciones": null,
+    "partido": "VOX",
+    "sueldo_real_euros": 61591.18,
+    "genero": "H",
+    "id_interno": "1"
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000066/000066_000_e_0000297_20230803.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/sofia-acedo-reyes",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/69_15.jpg",
+    "nombre": "Sofía Acedo Reyes",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "03/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "03/08/2023",
+    "cargo": "Diputado",
+    "circunscripcion": "Melilla",
+    "irpf_pagado": 6238.92,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda",
+        "situacion": "Melilla",
+        "fecha_adquisicion": "07/2017",
+        "derecho_titulo": "Pleno dominio"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Depósitos en cuatro cuentas",
+        "saldo_euros": 35942.87
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "AUDI A1",
+        "fecha_adquisicion": "02/2011"
+      },
+      {
+        "descripcion": "PIAGGIO VESPA 125",
+        "fecha_adquisicion": "01/2020"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "My Box Jubilación",
+        "valor_euros": 8453
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipoteca vivienda",
+        "fecha_concesion": "07/2017",
+        "importe_concedido_euros": 163000,
+        "saldo_pendiente_euros": 129802.25
+      },
+      {
+        "descripcion_acreedor": "Préstamo hipoteca",
+        "fecha_concesion": "08/2022",
+        "importe_concedido_euros": 120000,
+        "saldo_pendiente_euros": 116998.81
+      }
+    ],
+    "partido": "PP",
+    "sueldo_real_euros": 94946.32,
+    "genero": "M",
+    "id_interno": "2"
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000098/000098_000_e_0000419_20230804.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/adriana-maldonado-lopez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/105_15.jpg",
+    "nombre": "Adriana Maldonado López",
+    "id_interno": "",
+    "genero": "",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Navarra",
+    "estado_civil": "",
+    "regimen_economico": null,
+    "fecha_declaracion": "04/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "",
+    "irpf_pagado": 10704.58,
+    "sueldo_real_euros": null,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Sueldo del parlamento europeo",
+        "euros": 117704.04
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda",
+        "situacion": "Navarra",
+        "fecha_adquisicion": "2019",
+        "derecho_titulo": "pleno dominio compraventa"
+      },
+      {
+        "clase": "Vivienda",
+        "situacion": "Navarra",
+        "fecha_adquisicion": "2023",
+        "derecho_titulo": "pleno dominio compraventa · 50%"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Saldo en depósitos de cuentas corrientes",
+        "saldo_euros": 35000
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Audi A6",
+        "fecha_adquisicion": "2022"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones en SL",
+        "descripcion": "",
+        "valor_euros": 10000
+      }
+    ],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipoteca",
+        "fecha_concesion": "2020",
+        "importe_concedido_euros": 256000,
+        "saldo_pendiente_euros": 170000
+      },
+      {
+        "descripcion_acreedor": "Préstamo",
+        "fecha_concesion": "2022",
+        "importe_concedido_euros": 15000,
+        "saldo_pendiente_euros": 12000
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000100/000100_000_e_0000424_20230804.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/alberto-fabra-part",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/108_15.jpg",
+    "nombre": "Alberto Fabra Part",
+    "id_interno": "36",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Castellón",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "04/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "04/08/2023",
+    "irpf_pagado": 12264,
+    "sueldo_real_euros": 101392.76,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "Piso",
+        "situacion": "Teruel",
+        "fecha_adquisicion": "2000",
+        "derecho_titulo": "Pleno dominio por compraventa"
+      },
+      {
+        "clase": "Vivienda",
+        "situacion": "Castellón",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "Pleno dominio autoconstrucción (50%)"
+      },
+      {
+        "clase": "Plaza de garaje en concesión",
+        "situacion": "Castellón",
+        "fecha_adquisicion": "2002",
+        "derecho_titulo": "Usufructo"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 26000
+      },
+      {
+        "tipo": "Fondos",
+        "saldo_euros": 58000
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Moto SYM GST 125",
+        "fecha_adquisicion": "20/07/2015"
+      },
+      {
+        "descripcion": "Citroën C3 Aircross",
+        "fecha_adquisicion": "31/05/2019"
+      },
+      {
+        "descripcion": "Opel Crossland",
+        "fecha_adquisicion": "20/09/2021"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Planes de pensiones",
+        "valor_euros": 23000
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario para vivienda en Castellón (50%)",
+        "fecha_concesion": "30/06/2008",
+        "importe_concedido_euros": 367377,
+        "saldo_pendiente_euros": 75800
+      },
+      {
+        "descripcion_acreedor": "Préstamo personal",
+        "fecha_concesion": "30/05/2019",
+        "importe_concedido_euros": 13000,
+        "saldo_pendiente_euros": 2250
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000319/000319_000_e_0001347_20230816.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/ana-isabel-alos-lopez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/334_15.jpg",
+    "nombre": "Ana Isabel Alós López",
+    "id_interno": "6",
+    "genero": "M",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Huesca",
+    "estado_civil": "Divorciado",
+    "regimen_economico": null,
+    "fecha_declaracion": "16/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "16/08/2023",
+    "irpf_pagado": 32229,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "GRUPO PARLAMENTARIO POPULAR SENADO",
+        "euros": 26025
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "VIVIENDA",
+        "situacion": "HUESCA",
+        "fecha_adquisicion": "03/2020",
+        "derecho_titulo": "PLENODOMINIO COMPRAVENTA"
+      },
+      {
+        "clase": "TRASTERO",
+        "situacion": "HUESCA",
+        "fecha_adquisicion": "03/2020",
+        "derecho_titulo": "PLENODOMINIO COMPRAVENTA"
+      },
+      {
+        "clase": "PLAZA GARAJE",
+        "situacion": "HUESCA",
+        "fecha_adquisicion": "03/2020",
+        "derecho_titulo": "PLENO DOMINIO COMPRAVENTA"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuenta corrriente",
+        "saldo_euros": 54000
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Opel Astra",
+        "fecha_adquisicion": "2022"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Sociedad Luis y Alos, S.L",
+        "descripcion": "Participación del 50%",
+        "valor_euros": 3000
+      },
+      {
+        "clase": "Sociedad autolavados Huesca, S.L.",
+        "descripcion": "Participaciones del 25% (sociedad inactiva y en trámites de disolución)",
+        "valor_euros": 266
+      },
+      {
+        "clase": "Club de Tenis de Osca  de Huesca",
+        "descripcion": "Acciones (una unidad)",
+        "valor_euros": 2500
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "ALLIANZ PENSIONS",
+        "valor_euros": 448.25
+      },
+      {
+        "descripcion": "PLAN DE AHORRO ALLIANZ",
+        "valor_euros": 25001
+      },
+      {
+        "descripcion": "FONDO VIDA PLUS",
+        "valor_euros": 7175
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "PRÉSTAMO HIPOTECARIO CAIXABANK",
+        "fecha_concesion": "05/03/2020",
+        "importe_concedido_euros": 148000,
+        "saldo_pendiente_euros": 101160.27
+      },
+      {
+        "descripcion_acreedor": "PRÉSTAMO HIPOTECARIO CAIXABANK",
+        "fecha_concesion": "01/03/2002",
+        "importe_concedido_euros": 49030,
+        "saldo_pendiente_euros": 8652
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000160/000160_000_e_0000684_20230808.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/andrea-fernandez-beneitez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/31_15.jpg",
+    "nombre": "Andrea Fernández Benéitez",
+    "id_interno": "39",
+    "genero": "M",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "León",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "08/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "01/08/2023",
+    "irpf_pagado": 13667.23,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Universidad de Vigo",
+        "euros": 510
+      }
+    ],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Cuenta bancaria",
+        "saldo_euros": 145000
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000024/000024_000_e_0000108_20230802.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/antidio-fagundez-campo",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/29_15.jpg",
+    "nombre": "Antidio Fagúndez Campo",
+    "id_interno": "37",
+    "genero": "H",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Zamora",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "02/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "02/08/2023",
+    "irpf_pagado": 12160.09,
+    "sueldo_real_euros": 101392.76,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Arrendamiento de vivienda",
+        "euros": 3600
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda, plaza de garaje y trastero",
+        "situacion": "Zamora",
+        "fecha_adquisicion": "30/08/2008",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      },
+      {
+        "clase": "Vivienda, plaza de garaje y trastero",
+        "situacion": "Zamora",
+        "fecha_adquisicion": "13/02/2003",
+        "derecho_titulo": "Pleno dominio por compraventa"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas corrientes Unicaja, Mediolanum y BBVA",
+        "saldo_euros": 91599.8
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "BMW X5 3.0D",
+        "fecha_adquisicion": "29/10/2018"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones",
+        "descripcion": "Sociedad Soma Rehabilitación SL",
+        "valor_euros": 119754
+      },
+      {
+        "clase": "Seguro",
+        "descripcion": "Seguro Univida Inversión",
+        "valor_euros": 50000
+      }
+    ],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario BBVA",
+        "fecha_concesion": "31/08/2008",
+        "importe_concedido_euros": 388000,
+        "saldo_pendiente_euros": 259536
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000133/000133_000_e_0000569_20230807.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/beatriz-alvarez-fanjul",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/143_15.jpg",
+    "nombre": "Beatriz Álvarez Fanjul",
+    "id_interno": "8",
+    "genero": "M",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Bizkaia",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "07/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "07/08/2023",
+    "irpf_pagado": 13523.51,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Dos cuentas corrientes",
+        "saldo_euros": 16627
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Moto 125CC Brixton",
+        "fecha_adquisicion": "2020"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000250/000250_000_e_0001053_20230811.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/carlos-aragones-mendiguchia",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/259_15.jpg",
+    "nombre": "Carlos Aragonés Mendiguchía",
+    "id_interno": "10",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Madrid",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "11/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "11/08/2023",
+    "irpf_pagado": 15069.88,
+    "sueldo_real_euros": 85566.18,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "DOMICILIO CON PLAZA DE GARAJE",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "18/07/2019",
+        "derecho_titulo": "COMPRAVENTA 50%"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Dos cuentas corrientes (una co-titular)",
+        "saldo_euros": 76052.42
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones BBVA",
+        "descripcion": "",
+        "valor_euros": 34920.6
+      },
+      {
+        "clase": "A3 Media corporación",
+        "descripcion": "",
+        "valor_euros": 13.81
+      },
+      {
+        "clase": "Telefónica",
+        "descripcion": "",
+        "valor_euros": 1795.91
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Fondos de inversión BBVA moderada",
+        "valor_euros": 68384.34
+      },
+      {
+        "descripcion": "Fondos de inversión BBVA de gestión decidida",
+        "valor_euros": 25097.3
+      },
+      {
+        "descripcion": "Fondos de pensiones BBVA PLAN",
+        "valor_euros": 206838.01
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Cuenta préstamo vivienda OpenBank",
+        "fecha_concesion": "02/02/2021",
+        "importe_concedido_euros": 120000,
+        "saldo_pendiente_euros": 1112477
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000054/000054_000_e_0000235_20230803.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/carlos-javier-floriano-corrales",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/55_15.jpg",
+    "nombre": "Carlos Javier Floriano Corrales",
+    "id_interno": "42",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Cáceres",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "03/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "03/08/2023",
+    "irpf_pagado": 26397.16,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Colaboración con un medio de comunicación",
+        "euros": 600
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda habitual con dos plazas de garaje y trastero",
+        "situacion": "Cáceres",
+        "fecha_adquisicion": "2007",
+        "derecho_titulo": "Pleno dominio compraventa"
+      },
+      {
+        "clase": "Vivienda con una plaza de garaje y trastero",
+        "situacion": "Cádiz",
+        "fecha_adquisicion": "2003",
+        "derecho_titulo": "Pleno dominio compraventa"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "6 cuentas bancarias",
+        "saldo_euros": 45275.67
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "BMW SERIE 5",
+        "fecha_adquisicion": "2011"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones",
+        "descripcion": "Sector farmacéutico",
+        "valor_euros": 2100
+      },
+      {
+        "clase": "Acciones",
+        "descripcion": "Sector industrial",
+        "valor_euros": 996.06
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Planes de pensiones",
+        "valor_euros": 52586.63
+      },
+      {
+        "descripcion": "Renta Fija",
+        "valor_euros": 39617.6
+      },
+      {
+        "descripcion": "Plan de pensión suscrito con las cortes generales",
+        "valor_euros": 24000
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipoteca",
+        "fecha_concesion": "10/09/2010",
+        "importe_concedido_euros": 130000,
+        "saldo_pendiente_euros": 66787.44
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000058/000058_000_e_0000258_20230803.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/carmen-funez-de-gregorio",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/65_15.jpg",
+    "nombre": "Carmen Fúnez de Gregorio",
+    "id_interno": "43",
+    "genero": "M",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Ciudad Real",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "03/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "03/08/2023",
+    "irpf_pagado": 12864.61,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Salario Grupo Popular Senado",
+        "euros": 51379
+      },
+      {
+        "concepto": "Renta por arrendamiento de dos viviendas",
+        "euros": 14820
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Piso",
+        "situacion": "Ciudad Real",
+        "fecha_adquisicion": "07/1999",
+        "derecho_titulo": "Propiedad 100% compraventa"
+      },
+      {
+        "clase": "Piso",
+        "situacion": "Madrid",
+        "fecha_adquisicion": "10/2005",
+        "derecho_titulo": "Propiedad 100% compraventa"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas corrientes",
+        "saldo_euros": 11181.88
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario Caixabank",
+        "fecha_concesion": "28/10/2005",
+        "importe_concedido_euros": 374500,
+        "saldo_pendiente_euros": 132701.14
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000311/000311_000_e_0001306_20230816.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/cayetana-alvarez-de-toledo-peralta-ramos",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/315_15.jpg",
+    "nombre": "Cayetana Álvarez de Toledo Peralta-Ramos",
+    "id_interno": "7",
+    "genero": "M",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Madrid",
+    "estado_civil": "Divorciado",
+    "regimen_economico": null,
+    "fecha_declaracion": "16/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "16/08/2023",
+    "irpf_pagado": 66574.04,
+    "sueldo_real_euros": 114078.44,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "DERECHOS DE AUTOR Y CONFERENCIAS",
+        "euros": 188364.89
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "PISO",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2011",
+        "derecho_titulo": "100% PLENO DOMINIO COMPRAVENTA"
+      },
+      {
+        "clase": "PISO",
+        "situacion": "ARGENTINA",
+        "fecha_adquisicion": "1995",
+        "derecho_titulo": "50% PLENO DOMINIO COMPRAVENTA"
+      },
+      {
+        "clase": "PISO",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2022",
+        "derecho_titulo": "100% PLENO DOMINIO COMPRAVENTA"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente BBVA",
+        "saldo_euros": 22776
+      },
+      {
+        "tipo": "Fondo inversión Deutsche Bank",
+        "saldo_euros": 1221158
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Volkswagen Polo",
+        "fecha_adquisicion": "2014"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Crédito hipotecario Deutsche Bank",
+        "fecha_concesion": "2022",
+        "importe_concedido_euros": 630000,
+        "saldo_pendiente_euros": 215907.74
+      },
+      {
+        "descripcion_acreedor": "Póliza de crédito Deusche Bank",
+        "fecha_concesion": "2022",
+        "importe_concedido_euros": 700000,
+        "saldo_pendiente_euros": 472687.62
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000301/000301_000_e_0001257_20230816.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/concepcion-gamarra-ruiz-clavijo",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/314_15.jpg",
+    "nombre": "Concepción Gamarra Ruiz-Clavijo",
+    "id_interno": "44",
+    "genero": "M",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "La Rioja",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "16/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "16/08/2023",
+    "irpf_pagado": 72540,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "PARTIDO POPULAR. GASTOS REPRESENTACIÓN",
+        "euros": 26860
+      },
+      {
+        "concepto": "GRUPO PARLAMENTARIO POPULAR",
+        "euros": 28759
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "VIVIENDA",
+        "situacion": "LA RIOJA",
+        "fecha_adquisicion": "23/02/2018",
+        "derecho_titulo": "PLENO DOMINIO COMPRAVENTA"
+      },
+      {
+        "clase": "PLAZA GARAJE",
+        "situacion": "LA RIOJA",
+        "fecha_adquisicion": "23/02/2018",
+        "derecho_titulo": "PLENO DOMINIO COMPRAVENTA"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "BANCO SANTANDER: DEPÓSITOS DE VALORES Y FONDOS DE INVERSIÓN",
+        "saldo_euros": 22250
+      },
+      {
+        "tipo": "IBERCAJA: CUENTAS Y PLAN DE PENSIONES",
+        "saldo_euros": 170061
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "HIPOTECA AHORA",
+        "fecha_concesion": "23/02/2019",
+        "importe_concedido_euros": 229000,
+        "saldo_pendiente_euros": 191920
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000273/000273_000_e_0001155_20230814.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/eduardo-carazo-hermoso",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/282_15.jpg",
+    "nombre": "Eduardo Carazo Hermoso",
+    "id_interno": "21",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Valladolid",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "14/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "14/08/2023",
+    "irpf_pagado": 15290.09,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Dividendos",
+        "euros": 276.45
+      },
+      {
+        "concepto": "Rendimientos de cuentas corrientes y activos financieros",
+        "euros": 44.24
+      }
+    ],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Cuentas corrientes",
+        "saldo_euros": 102854.74
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "BMW Serie 1",
+        "fecha_adquisicion": "12/2021"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones (17 unidades)",
+        "descripcion": "Banco Santander",
+        "valor_euros": 61.38
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Fondos de inversión (por herencia). Valor con fecha 14/08/2023",
+        "valor_euros": 51896.06
+      },
+      {
+        "descripcion": "Fondo de inversión. Valor con fecha 14/08/2023",
+        "valor_euros": 5349.82
+      },
+      {
+        "descripcion": "Plan de pensiones",
+        "valor_euros": 56.22
+      }
+    ],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000197/000197_000_e_0000842_20230809.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/elias-bendodo-benasayag",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/209_15.jpg",
+    "nombre": "Elías Bendodo Benasayag",
+    "id_interno": "16",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Málaga",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "09/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "09/08/2023",
+    "irpf_pagado": 38755.04,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Percepciones correspondientes a Senado XIV legislatura",
+        "euros": null
+      },
+      {
+        "concepto": "Partido Popular (gastos de representación)",
+        "euros": 14500
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "PISO VIVIENDA",
+        "situacion": "MÁLAGA",
+        "fecha_adquisicion": "2006",
+        "derecho_titulo": "GANANCIALES, COMPRAVENTA"
+      },
+      {
+        "clase": "PISO VIVIENDA",
+        "situacion": "MÁLAGA",
+        "fecha_adquisicion": "2000",
+        "derecho_titulo": "GANANCIALES, COMPRAVENTA"
+      },
+      {
+        "clase": "PISO VIVIENDA",
+        "situacion": "MÁLAGA",
+        "fecha_adquisicion": "2013",
+        "derecho_titulo": "GANANCIALES, COMPRAVENTA"
+      },
+      {
+        "clase": "PISO VIVIENDA",
+        "situacion": "MÁLAGA",
+        "fecha_adquisicion": "2016",
+        "derecho_titulo": "PLENO DOMINIO, COMPRAVENTA"
+      },
+      {
+        "clase": "PARCELA",
+        "situacion": "MÁLAGA",
+        "fecha_adquisicion": "2018",
+        "derecho_titulo": "PLENO DOMINIO, COMPRAVENTA"
+      },
+      {
+        "clase": "PLAZAS DE GARAJE",
+        "situacion": "MÁLAGA",
+        "fecha_adquisicion": "2006-2022",
+        "derecho_titulo": "PLENO DOMINIO, COMPRAVENTA"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas corrientes",
+        "saldo_euros": 24277.22
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "BMW DT AU 4 P",
+        "fecha_adquisicion": "2018"
+      },
+      {
+        "descripcion": "MOTO HD",
+        "fecha_adquisicion": "2017"
+      },
+      {
+        "descripcion": "MINI",
+        "fecha_adquisicion": "2022"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "HIPOTECA CAIXA 100%",
+        "fecha_concesion": "23/12/2013",
+        "importe_concedido_euros": 140000,
+        "saldo_pendiente_euros": 102063.78
+      },
+      {
+        "descripcion_acreedor": "HIPOTECA UNICAJA 100%",
+        "fecha_concesion": "26/9/2018",
+        "importe_concedido_euros": 66550,
+        "saldo_pendiente_euros": 58479
+      },
+      {
+        "descripcion_acreedor": "HIPOTECA UNICAJA 100%",
+        "fecha_concesion": "03/93/2017",
+        "importe_concedido_euros": 97000,
+        "saldo_pendiente_euros": 81065.5
+      },
+      {
+        "descripcion_acreedor": "HIPOTECA CAJAMAR 100%",
+        "fecha_concesion": "22/06/2007",
+        "importe_concedido_euros": 325000,
+        "saldo_pendiente_euros": 167068.82
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000105/000105_000_e_0000448_20230804.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/elisa-garrido-jimenez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/116_15.jpg",
+    "nombre": "Elisa Garrido Jiménez",
+    "id_interno": "47",
+    "genero": "M",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "La Rioja",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "04/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "04/08/2023",
+    "irpf_pagado": 12697.81,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "SALARIO DE ALCALDESA DE CALAHORRA",
+        "euros": 56445.51
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "VIVIENDA",
+        "situacion": "LA RIOJA",
+        "fecha_adquisicion": "2015",
+        "derecho_titulo": "PLENO DOMINIO COMPRAVENTA"
+      },
+      {
+        "clase": "SOLAR",
+        "situacion": "LA RIOJA",
+        "fecha_adquisicion": "2004",
+        "derecho_titulo": "PLENO DOMINIO POR HERENCIA (50%)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "CUENTA CORRIENTE (SALDO MEDIO 2022)",
+        "saldo_euros": 7013.39
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "DACIA LODGY",
+        "fecha_adquisicion": "2018"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "PRÉSTAMO HIPOTECARIO VIVIENDA KTUTXABANK",
+        "fecha_concesion": "2018",
+        "importe_concedido_euros": 130000,
+        "saldo_pendiente_euros": 96900.35
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000080/000080_000_e_0000350_20230803.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/esther-gil-de-reboleno-lastortres",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/86_15.jpg",
+    "nombre": "Esther Gil de Reboleño Lastortres",
+    "id_interno": "48",
+    "genero": "M",
+    "partido": "SUMAR",
+    "cargo": "Diputado",
+    "circunscripcion": "Cádiz",
+    "estado_civil": "Divorciado",
+    "regimen_economico": null,
+    "fecha_declaracion": "03/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "03/08/2026",
+    "irpf_pagado": 1924.82,
+    "sueldo_real_euros": 144074,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Sueldo como empleada en Cadigenia SL",
+        "euros": 26381.22
+      }
+    ],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 24578.7
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Furgoneta VW Transporter",
+        "fecha_adquisicion": "03/2021"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones/participaciones",
+        "descripcion": "Cadigenia SL y Órbita SL",
+        "valor_euros": 1200.33
+      }
+    ],
+    "otros_bienes_no_declarados": [],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000101/000101_000_e_0000429_20230804.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/felix-de-las-cuevas-cortes",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/107_15.jpg",
+    "nombre": "Félix De las Cuevas Cortés",
+    "id_interno": "31",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Cantabria",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "04/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "04/08/2023",
+    "irpf_pagado": 16990.35,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Rentas sin especificar",
+        "euros": 9034.07
+      }
+    ],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Cuentas de ahorro",
+        "saldo_euros": 9786.85
+      },
+      {
+        "tipo": "Cuentas gestionadas por BBVA y ATL Capital",
+        "saldo_euros": 734869.65
+      },
+      {
+        "tipo": "Fondo de inversión",
+        "saldo_euros": 18901.17
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Yamaha XMAX",
+        "fecha_adquisicion": "2021"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones",
+        "descripcion": "IBEX 35, Banco Santander, BBVA, SAINT-GOBAIN, ORYZON GENOMICS, ATRESMEDIA",
+        "valor_euros": 302986.2
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Planes de pensiones",
+        "valor_euros": 204869.43
+      },
+      {
+        "descripcion": "Plan de jubilación (Saint-Gobain)",
+        "valor_euros": 38166.33
+      }
+    ],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000230/000230_000_e_0000979_20230810.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/fernando-de-rosa-torner",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/248_15.jpg",
+    "nombre": "Fernando De Rosa Torner",
+    "id_interno": "34",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Valencia",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "10/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "10/08/2023",
+    "irpf_pagado": 25184.86,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Secretaria General de la Adminstracion de Justicia CONCEPTO TRIENIO",
+        "euros": 12600
+      },
+      {
+        "concepto": "Dividendos Acciones Banco Santander",
+        "euros": 2.78
+      },
+      {
+        "concepto": "Rendimiento cuenta Banco Santander",
+        "euros": 20.48
+      },
+      {
+        "concepto": "Alquiler 2 oficinas en Valencia",
+        "euros": 15552
+      },
+      {
+        "concepto": "Cdad. de Propietarios Barón de Carcer — Valencia",
+        "euros": 325.86
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "INMUEBLE",
+        "situacion": "VALENCIA",
+        "fecha_adquisicion": "2009",
+        "derecho_titulo": "PLENO DOMINIO - HERENCIA"
+      },
+      {
+        "clase": "INMUEBLE",
+        "situacion": "VALENCIA",
+        "fecha_adquisicion": "2009",
+        "derecho_titulo": "PLENO DOMINIO - HERENCIA"
+      },
+      {
+        "clase": "INMUEBLE",
+        "situacion": "DENIA (ALICANTE)",
+        "fecha_adquisicion": "1980",
+        "derecho_titulo": "PLENO DOMINIO - HERENCIA (25%)"
+      },
+      {
+        "clase": "INMUEBLE",
+        "situacion": "NAQUERA (VALENCIA)",
+        "fecha_adquisicion": "1996",
+        "derecho_titulo": "PLENO DOMINIO - COMPRA (50%)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "CUENTA IBERCAJA",
+        "saldo_euros": 6000
+      },
+      {
+        "tipo": "CUENTA BANCO SANTANDER",
+        "saldo_euros": 4000
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "MERCEDES C-180 KOMPRESOR",
+        "fecha_adquisicion": "06/2006"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones",
+        "descripcion": "Banco Santander",
+        "valor_euros": 8.7
+      }
+    ],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipoteca Banco Santander sobre un inmueble en Náquera ( Valencia)",
+        "fecha_concesion": "1996",
+        "importe_concedido_euros": 300000,
+        "saldo_pendiente_euros": 120000
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000179/000179_001_e_0099092_20260211.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/francina-armengol-i-socias",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/185_15.jpg",
+    "nombre": "Francina Armengol Socias",
+    "id_interno": "13",
+    "genero": "M",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Illes Balears",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "11/02/2026",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "09/08/2023",
+    "irpf_pagado": 28814.21,
+    "sueldo_real_euros": 230911.66,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Salario Presidenta Gobierno Illes Balears",
+        "euros": 71502.62
+      },
+      {
+        "concepto": "Dietas del Parlamento de Illes Balears",
+        "euros": 23735.71
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Piso. Vivienda habitual",
+        "situacion": "Illes Balears",
+        "fecha_adquisicion": "13/08/2002",
+        "derecho_titulo": "Compraventa con pleno dominio"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Depósito en cuentas corrientes + seguros + plan pensiones",
+        "saldo_euros": 88009.88
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Jeep Grand Cherokee",
+        "fecha_adquisicion": "2012"
+      },
+      {
+        "descripcion": "Honda CR-V",
+        "fecha_adquisicion": "2026"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000020/000020_000_e_0000087_20230802.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/francisco-aranda-vargas",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/21_15.jpg",
+    "nombre": "Francisco Aranda Vargas",
+    "id_interno": "11",
+    "genero": "H",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Barcelona",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "02/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "02/08/2026",
+    "irpf_pagado": 13624.03,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Rendimientos del trabajo profesor asociado Universidad de Barcelona",
+        "euros": 3531.12
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda habitual",
+        "situacion": "Sabadell",
+        "fecha_adquisicion": "05/04/2022",
+        "derecho_titulo": "Pleno dominio compraventa declarante (50%)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas corrientes (al 50%)",
+        "saldo_euros": 15556.35
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Ford Focus",
+        "fecha_adquisicion": "07/2006"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipotecario La Caixa (al 50%)",
+        "fecha_concesion": "06/04/2022",
+        "importe_concedido_euros": 250000,
+        "saldo_pendiente_euros": 237731.62
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000340/000340_000_e_0001415_20230816.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/francisco-jose-conde-lopez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/349_15.jpg",
+    "nombre": "Francisco José Conde López",
+    "id_interno": "26",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Lugo",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "16/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "16/08/2023",
+    "irpf_pagado": 23379.56,
+    "sueldo_real_euros": 101392.76,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "RETRIBUCIÓN BRUTA COMO CONSEJERO DE LA XUNTA DE GALICIA",
+        "euros": 70806.48
+      },
+      {
+        "concepto": "DIETAS POR ASISTENCIA AL CONSEJO DE DIRECCIÓN DEL INSTITUTO GALEGO DE PROMOCIÓN ECONÓMICA",
+        "euros": 5445.83
+      },
+      {
+        "concepto": "DIETAS POR ASISTENCIA AL CONSEJO DE ADMINISTRACIÓN DE XES GALICIA",
+        "euros": 5180.11
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "PISO",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2015",
+        "derecho_titulo": "50% PROPIEDAD COMPRAVENTA"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Dos cuentas corrientes (gananciales)",
+        "saldo_euros": 8491.43
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "VOLKSWAGEN TOURAN",
+        "fecha_adquisicion": "2009"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "PLAN DE PENSIONES",
+        "descripcion": "",
+        "valor_euros": 25096.61
+      }
+    ],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "PRÉSTAMO HIPOTECARIO EVO",
+        "fecha_concesion": "2015",
+        "importe_concedido_euros": 260000,
+        "saldo_pendiente_euros": 198175.09
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000110/000110_000_e_0000467_20230804.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/ignacio-gil-lazaro",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/117_15.jpg",
+    "nombre": "Ignacio Gil Lázaro",
+    "id_interno": "49",
+    "genero": "H",
+    "partido": "VOX",
+    "cargo": "Diputado",
+    "circunscripcion": "Valencia",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "04/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "04/08/2023",
+    "irpf_pagado": 34889.4,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "VIVIENDA CON DOS PLAZAS DE GARAJE",
+        "situacion": "VALENCIA",
+        "fecha_adquisicion": "—",
+        "derecho_titulo": "PLENO DOMINIO GANANCIALES (50%)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "2 CUENTAS CORRIENTES",
+        "saldo_euros": 313044.25
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "OPEL ZAFIRA",
+        "fecha_adquisicion": "2008"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000248/000248_000_e_0001042_20230811.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/ione-belarra-urteaga",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/262_15.jpg",
+    "nombre": "Ione Belarra Urteaga",
+    "id_interno": "15",
+    "genero": "M",
+    "partido": "Podemos",
+    "cargo": "Diputado",
+    "circunscripcion": "Madrid",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "11/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "11/08/2023",
+    "irpf_pagado": 22072.63,
+    "sueldo_real_euros": 114078.44,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Rendimientos de trabajo",
+        "euros": 77478.24
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "MITAD INDIVISA VIVIENDA",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "1/10/2019",
+        "derecho_titulo": "39.327,59 € (VALOR CATASTRAL)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas de ahorro (saldo a 31-12-2022)",
+        "saldo_euros": 84245.27
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "PRÉSTAMO HIPOTECARIO CAJA DE CRÉDITO DE INGENIEROS, SOC. COOP.",
+        "fecha_concesion": "01/10/2019",
+        "importe_concedido_euros": 70700,
+        "saldo_pendiente_euros": 59697.43
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000258/000258_000_e_0001085_20230814.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/jaime-miguel-de-los-santos-gonzalez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/270_15.jpg",
+    "nombre": "Jaime Miguel De los Santos González",
+    "id_interno": "32",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Madrid",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "14/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "14/08/2023",
+    "irpf_pagado": 26047.98,
+    "sueldo_real_euros": 79119.74,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Diputado en la Asamblea de Madrid y Senador",
+        "euros": 83050.92
+      }
+    ],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 122978.11
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000236/000236_000_e_0000999_20230810.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/javier-alfonso-cendon",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/252_15.jpg",
+    "nombre": "Javier Alfonso Cendón",
+    "id_interno": "5",
+    "genero": "H",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "León",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "10/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "10/08/2023",
+    "irpf_pagado": 13165.86,
+    "sueldo_real_euros": 112376.46,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "COMPLEMENTO DE ANTIGÜEDAD (TRIENIOS) COMO PROFESOR TITULAR DE UNIVERSIDAD (UNIVERSIDAD DE LEÓN)",
+        "euros": 2288.16
+      },
+      {
+        "concepto": "ARRENDAMIENTO DE VIVIENDA (50%)",
+        "euros": 3240
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "PISO",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2010",
+        "derecho_titulo": "PLENO DOMINIO COMPRAVENTA"
+      },
+      {
+        "clase": "PLAZA DE APARCAMIENTO",
+        "situacion": "LEÓN",
+        "fecha_adquisicion": "2010",
+        "derecho_titulo": "PLENO DOMINIO COMPRAVENTA"
+      },
+      {
+        "clase": "PISO",
+        "situacion": "LEÓN",
+        "fecha_adquisicion": "2016",
+        "derecho_titulo": "PLENO DOMINIO, HERENCIA 50% DECLARANTE"
+      },
+      {
+        "clase": "FINCA RÚSTICA",
+        "situacion": "LEÓN",
+        "fecha_adquisicion": "2016",
+        "derecho_titulo": "PLENO DOMINIO HERENCIA"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Dos cuentas corrientes en diferentes entidades bancarias",
+        "saldo_euros": 64869.9
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Vehículo Mercedez Benz Cla 220",
+        "fecha_adquisicion": "2016"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Seguro de vida en Caixa Bank",
+        "valor_euros": 90500
+      },
+      {
+        "descripcion": "Plan de pensiones",
+        "valor_euros": 26566.48
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario concedido por Caixa Bank",
+        "fecha_concesion": "16/12/2010",
+        "importe_concedido_euros": 176000,
+        "saldo_pendiente_euros": 96502.84
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000109/000109_000_e_0000464_20230804.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/jose-antonio-bermudez-de-castro-fernandez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/118_15.jpg",
+    "nombre": "José Antonio Bermúdez de Castro Fernández",
+    "id_interno": "17",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Salamanca",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "04/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "04/08/2023",
+    "irpf_pagado": 25338,
+    "sueldo_real_euros": 144074,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Dividendos acciones",
+        "euros": 631.27
+      },
+      {
+        "concepto": "Intereses C/C",
+        "euros": 211.2
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda adosada",
+        "situacion": "Pozuelo de Alarcón",
+        "fecha_adquisicion": "22/12/2012",
+        "derecho_titulo": "Pleno dominio"
+      },
+      {
+        "clase": "Vivienda rústica y parcela",
+        "situacion": "Cantabria",
+        "fecha_adquisicion": "09/05/2024",
+        "derecho_titulo": "Pleno dominio vía subasta pública del Estado"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Sin especificar",
+        "saldo_euros": 263178
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Mercedes Ranchera 320",
+        "fecha_adquisicion": "-"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones renta variable en Telefónica, Ezentis, Solaria, Colonial, IAG y Quabit",
+        "descripcion": "Valor de 02/08/2023",
+        "valor_euros": 59345
+      },
+      {
+        "clase": "Fondos de inversión en BBVA",
+        "descripcion": "Valor de 02/08/2023",
+        "valor_euros": 26892
+      },
+      {
+        "clase": "Acciones Sociedad FESSA",
+        "descripcion": "",
+        "valor_euros": 9600
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Antiguo Plan de Pensiones del Congreso de los Diputados",
+        "valor_euros": null
+      }
+    ],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000186/000186_001_e_0002205_20231005.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/jose-maria-figaredo-alvarez-sala",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/193_15.jpg",
+    "nombre": "José María Figaredo Álvarez-Sala",
+    "id_interno": "41",
+    "genero": "H",
+    "partido": "VOX",
+    "cargo": "Diputado",
+    "circunscripcion": "Asturias",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "05/10/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "09/08/2023",
+    "irpf_pagado": 27486.07,
+    "sueldo_real_euros": 129905.02,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Ejercicio de la abogacía por cuenta propia",
+        "euros": 13332
+      },
+      {
+        "concepto": "Docencia en Universidad privada",
+        "euros": 720
+      },
+      {
+        "concepto": "Rendimientos del capital mobiliario",
+        "euros": 45.89
+      },
+      {
+        "concepto": "Rendimientos del capital inmobiliario",
+        "euros": 8015.68
+      },
+      {
+        "concepto": "Secretaría general de VOX",
+        "euros": 9600
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda con garaje",
+        "situacion": "Madrid",
+        "fecha_adquisicion": "2022",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      },
+      {
+        "clase": "Vivienda con garaje",
+        "situacion": "Madrid",
+        "fecha_adquisicion": "2018",
+        "derecho_titulo": "Pleno dominio por compraventa"
+      },
+      {
+        "clase": "Vivienda con garaje",
+        "situacion": "Madrid",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "Pleno dominio por herencia (12,5%)"
+      },
+      {
+        "clase": "Vivienda",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2016",
+        "derecho_titulo": "Pleno dominio por herencia (6,08%)"
+      },
+      {
+        "clase": "Vivienda con garaje",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2016",
+        "derecho_titulo": "Pleno dominio por herencia"
+      },
+      {
+        "clase": "Vivienda",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "Pleno dominio por herencia (12,5%)"
+      },
+      {
+        "clase": "Nave industrial",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "Pleno dominio por herencia"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas corrientes y planes de pensiones",
+        "saldo_euros": 17935.43
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "VOLKSWAGEN POLO",
+        "fecha_adquisicion": "2021"
+      },
+      {
+        "descripcion": "MOTOCICLETA 850cc",
+        "fecha_adquisicion": "2021"
+      },
+      {
+        "descripcion": "MOTOCICLETA 650cc",
+        "fecha_adquisicion": "2016"
+      },
+      {
+        "descripcion": "MOTOCICLETA 250cc",
+        "fecha_adquisicion": "2021"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipoteca para compra de vivienda",
+        "fecha_concesion": "2018",
+        "importe_concedido_euros": 304000,
+        "saldo_pendiente_euros": 252400.56
+      },
+      {
+        "descripcion_acreedor": "Hipoteca para compra de vivienda (50%)",
+        "fecha_concesion": "2022",
+        "importe_concedido_euros": 340000,
+        "saldo_pendiente_euros": 334165.31
+      },
+      {
+        "descripcion_acreedor": "Préstamo personal (50%)",
+        "fecha_concesion": "2022",
+        "importe_concedido_euros": 35000,
+        "saldo_pendiente_euros": 30000
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000232/000232_000_e_0000990_20230810.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/josep-maria-cruset-domenech",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/244_15.jpg",
+    "nombre": "Josep Maria Cruset Domènech",
+    "id_interno": "29",
+    "genero": "H",
+    "partido": "Junts",
+    "cargo": "Diputado",
+    "circunscripcion": "Tarragona",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "10/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "10/08/2023",
+    "irpf_pagado": 28040.13,
+    "sueldo_real_euros": 129905.02,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "AUTORITAT PORTUÀRIA DE TARRAGONA",
+        "euros": 87546.43
+      },
+      {
+        "concepto": "DIPUTACIÓ DE TARRAGONA",
+        "euros": 4132.99
+      }
+    ],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Depósito",
+        "saldo_euros": 107053.72
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "CRUSET DOMÉNECH AGRICOLES (B43677152) - 0,622%",
+        "valor_euros": 11930.55
+      },
+      {
+        "descripcion": "PLANES DE PENSIONES",
+        "valor_euros": 98482.28
+      }
+    ],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000339/000339_000_e_0001412_20230816.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/juan-bravo-baena",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/9_15.jpg",
+    "nombre": "Juan Bravo Baena",
+    "id_interno": "19",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Sevilla",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "16/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "01/08/2023",
+    "irpf_pagado": 45112.64,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Rendimiento del trabajo",
+        "euros": 46875.85
+      },
+      {
+        "concepto": "Rendimiento del trabajo",
+        "euros": 2266.67
+      },
+      {
+        "concepto": "Gastos de representación",
+        "euros": 22720
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Plaza aparcamiento",
+        "situacion": "Jaén",
+        "fecha_adquisicion": "2002",
+        "derecho_titulo": "Pleno dominio en gananciales"
+      },
+      {
+        "clase": "Plaza aparcamiento",
+        "situacion": "Jaén",
+        "fecha_adquisicion": "2002",
+        "derecho_titulo": "Pleno dominio en gananciales"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Depósitos",
+        "saldo_euros": 15500
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Volvo XC 90",
+        "fecha_adquisicion": "2019"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones",
+        "descripcion": "",
+        "valor_euros": 8500
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Plan de pensiones",
+        "valor_euros": 3559.08
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipoteca",
+        "fecha_concesion": "2002",
+        "importe_concedido_euros": 144242.91,
+        "saldo_pendiente_euros": 39363.03
+      },
+      {
+        "descripcion_acreedor": "Préstamo",
+        "fecha_concesion": "2021",
+        "importe_concedido_euros": 50000,
+        "saldo_pendiente_euros": 37769.83
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000046/000046_000_e_0000200_20230802.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/juan-jose-aizcorbe-torra",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/52_15.jpg",
+    "nombre": "Juan José Aizcorbe Torra",
+    "id_interno": "3",
+    "genero": "H",
+    "partido": "VOX",
+    "cargo": "Diputado",
+    "circunscripcion": "Barcelona",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "02/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "02/08/2023",
+    "irpf_pagado": 36263.44,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Rendimiento percepción neta por actividad por cuenta propia y ajena",
+        "euros": 62027.04
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda",
+        "situacion": "Gerona",
+        "fecha_adquisicion": "24/07/2019",
+        "derecho_titulo": "Proindiviso. Compraventa"
+      },
+      {
+        "clase": "Vivienda unifamiliar. Tierra cultivo y bosque",
+        "situacion": "Lérida",
+        "fecha_adquisicion": "Donación 2005 / Obra nueva 2007",
+        "derecho_titulo": "Nuda propiedad. Obra nueva, proindiviso"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas corrientes",
+        "saldo_euros": 8131.86
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Volvo XC70 2400 D5 AWD MOMENTUM AUT",
+        "fecha_adquisicion": "20/07/2011"
+      },
+      {
+        "descripcion": "Honda SH Confort",
+        "fecha_adquisicion": "03/01/2007"
+      },
+      {
+        "descripcion": "Volkswagen Polo Sport 10 TSI AW14 LV 5P",
+        "fecha_adquisicion": "05/12/2017"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Base Concursal SLP",
+        "descripcion": "Valor nominal constitución",
+        "valor_euros": 600
+      },
+      {
+        "clase": "Hispalex Irus",
+        "descripcion": "(sin actividad) valor teórico",
+        "valor_euros": 39182.9
+      },
+      {
+        "clase": "Aizcorbe Abogados SL",
+        "descripcion": "(sin actividad) Valor teórico",
+        "valor_euros": 24043.98
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Plan de pensiones profesional mutualidad de la abogacía",
+        "valor_euros": 1490.3
+      },
+      {
+        "descripcion": "Fondo de pensiones. Pensions Caixa Tendencias FP",
+        "valor_euros": 9636.11
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario Bankinter",
+        "fecha_concesion": "10/09/2019",
+        "importe_concedido_euros": 70000,
+        "saldo_pendiente_euros": 58841.61
+      },
+      {
+        "descripcion_acreedor": "Préstamo hipotecario BBVA",
+        "fecha_concesion": "20/11/2006",
+        "importe_concedido_euros": 60000,
+        "saldo_pendiente_euros": 28964.74
+      },
+      {
+        "descripcion_acreedor": "Préstamo Autopromotor",
+        "fecha_concesion": "29/11/2006",
+        "importe_concedido_euros": 149000,
+        "saldo_pendiente_euros": 70250.36
+      },
+      {
+        "descripcion_acreedor": "Préstamo Autopromotor",
+        "fecha_concesion": "29/11/2006",
+        "importe_concedido_euros": 50000,
+        "saldo_pendiente_euros": 24116.07
+      },
+      {
+        "descripcion_acreedor": "Multi Crédito",
+        "fecha_concesion": "29/11/2006",
+        "importe_concedido_euros": 10500,
+        "saldo_pendiente_euros": 5080.94
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000348/000348_000_e_0001661_20230911.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/luc-andre-diouf-dioh",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/142_15.jpg",
+    "nombre": "Luc Andre Diouf Dioh",
+    "id_interno": "35",
+    "genero": "H",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Las Palmas",
+    "estado_civil": "Separado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "11/09/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "07/08/2023",
+    "irpf_pagado": 13060.23,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "Casa terrera",
+        "situacion": "Joal (Senegal)",
+        "fecha_adquisicion": "2022",
+        "derecho_titulo": "Propiedad 100% (Nuda propiedad + usufructo)"
+      },
+      {
+        "clase": "Finca de 1 hectárea",
+        "situacion": "Senegal",
+        "fecha_adquisicion": "2004",
+        "derecho_titulo": "Compra propiedad 100%"
+      },
+      {
+        "clase": "Finca de 2 hectáreas",
+        "situacion": "Senegal",
+        "fecha_adquisicion": "2023",
+        "derecho_titulo": "Compra propiedad 100%"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Dos cuentas corrientes y una de ahorro",
+        "saldo_euros": 23000
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Plan de pensiones",
+        "valor_euros": 4000
+      },
+      {
+        "descripcion": "Microcrédito PSOE",
+        "valor_euros": 2000
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo personal Lindor",
+        "fecha_concesion": "30/07/2015",
+        "importe_concedido_euros": 36000,
+        "saldo_pendiente_euros": 15000
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000082/000082_000_e_0000356_20230803.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/manuel-arribas-maroto",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/96_15.jpg",
+    "nombre": "Manuel Arribas Maroto",
+    "id_interno": "14",
+    "genero": "H",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Ávila",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "03/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "03/08/2023",
+    "irpf_pagado": 13490.34,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "CUENTAS CORRIENTES",
+        "saldo_euros": 15698.35
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "RANGE ROVER 3.2",
+        "fecha_adquisicion": "05/2021"
+      },
+      {
+        "descripcion": "RENAULT 5 COPA TURBO",
+        "fecha_adquisicion": "06/2023"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000314/000314_000_e_0001314_20230816.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/manuel-cobo-vega",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/324_15.jpg",
+    "nombre": "Manuel Cobo Vega",
+    "id_interno": "25",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Madrid",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "16/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "16/08/2023",
+    "irpf_pagado": 99407.68,
+    "sueldo_real_euros": 85566.18,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "GERENTE GRUCOVE S.A.",
+        "euros": 31069
+      },
+      {
+        "concepto": "COLABORADOR TV. 6&M PRODUCCIONES Y CONTENIDOS AUDIOSIVUALES S.L.U.",
+        "euros": 11400
+      },
+      {
+        "concepto": "ARTICULISTA DIARIO AS S.L",
+        "euros": 2658
+      },
+      {
+        "concepto": "DIVIDENDOS GRUCOCA INMOBILIARIA S.L.",
+        "euros": 73333.3
+      },
+      {
+        "concepto": "DIVIDENDOS ESTACIONES Y ARRENDAMIENTOS S.A",
+        "euros": 24444.45
+      },
+      {
+        "concepto": "INTERESES BANCOS",
+        "euros": 135.61
+      },
+      {
+        "concepto": "BENEFICIO VENTA FONDOS",
+        "euros": 535.3
+      },
+      {
+        "concepto": "RENDIMIENTOS INMOBILIARIOS 25% HERMANOS COBO VEGA C.B.",
+        "euros": 30135
+      },
+      {
+        "concepto": "ARRENDAMIENTO VIVIENDA (25% PROPIEDAD)",
+        "euros": 6300
+      },
+      {
+        "concepto": "GANANCIA PATRIMONIAL. INTERESES DEMORA AGENCIA TRIBUTARIA",
+        "euros": 144779
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "VIVIENDA Y PLAZA DE GARAJE",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2017",
+        "derecho_titulo": "50% PLENO DOMINIO"
+      },
+      {
+        "clase": "PLAZA DE GARAJE",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "50% PLENO DOMINIO"
+      },
+      {
+        "clase": "NAVE INDUSTRIAL",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "25% PLENO DOMINIO (HERENCIA)"
+      },
+      {
+        "clase": "VIVIENDA",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2011",
+        "derecho_titulo": "25% PLENO DOMINIO"
+      },
+      {
+        "clase": "VIVIENDA",
+        "situacion": "ALMERÍA",
+        "fecha_adquisicion": "2011",
+        "derecho_titulo": "50% PLENO DOMINIO"
+      },
+      {
+        "clase": "CASA",
+        "situacion": "LEON",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "25% PLENO DOMINIO (HERENCIA)"
+      },
+      {
+        "clase": "LOCAL",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "25% PLENO DOMINIO (HERENCIA)"
+      },
+      {
+        "clase": "2 PLAZAS DE GARAJE",
+        "situacion": "ALMERÍA",
+        "fecha_adquisicion": "2012",
+        "derecho_titulo": "50% PLENO DOMINIO"
+      },
+      {
+        "clase": "4 FINCAS URBANAS",
+        "situacion": "LEÓN",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "25% PLENO DOMINIO (HERENCIA)"
+      },
+      {
+        "clase": "13 FINCAS RÚSTICAS",
+        "situacion": "LEÓN",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "25% PLENO DOMINIO (HERENCIA)"
+      },
+      {
+        "clase": "5 FINCAS RÚSTICAS",
+        "situacion": "LEON",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "25% PLENO DOMINIO (HERENCIA)"
+      },
+      {
+        "clase": "3 LOCALES OFICINAS EN POLÍGONO INDUSTRIAL",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "12,48% PLENO DOMINIOHERENCIA GRUCOCA INMOBILIARIA S.L."
+      },
+      {
+        "clase": "LOCAL GARAJE EN POLÍGONO INDUSTRIAL",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "12,48% PLENO DOMINIOHERENCIA GRUCOCA INMOBILIARIA S.L."
+      },
+      {
+        "clase": "LOCAL COMERCIAL POLÍGONO INDUSTRIAL",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "12,48% PLENO DOMINIOHERENCIA GRUCOCA INMOBILIARIA S.L."
+      },
+      {
+        "clase": "VIVIENDA EN POLÍGONO INDUSTRIAL",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "12,48% PLENO DOMINIOHERENCIA GRUCOCA INMOBILIARIA S.L."
+      },
+      {
+        "clase": "VIVIENDA EN POLÍGONO INDUSTRIAL",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "12,48% PLENO DOMINIOHERENCIA GRUCOCA INMOBILIARIA S.L."
+      },
+      {
+        "clase": "NAVE INDUSTRIAL",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "12,48% PLENO DOMINIOHERENCIA GRUCOCA INMOBILIARIA S.L."
+      },
+      {
+        "clase": "8 FINCHAS RÚSTICAS",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "12,48% PLENO DOMINIOHERENCIA GRUCOCA INMOBILIARIA S.L."
+      },
+      {
+        "clase": "NAVE INDUSTRIAL",
+        "situacion": "MADRID",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "12,5% ESTACIONES Y ARRENDAMIENTOS S.A"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "CUENTAS CORRIENTES, CUENTAS DE AHORRO A PLAZO, FONDOS Y SEGUROS DE AHORRO Y DE RENTA",
+        "saldo_euros": 1944473
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "50% AUDI Q3",
+        "fecha_adquisicion": "12/2019"
+      },
+      {
+        "descripcion": "50% AUDI Q2",
+        "fecha_adquisicion": "09/2017"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Letras del Tesoro",
+        "descripcion": "LETRAS DEL TESORO A 09/08/2023",
+        "valor_euros": 97860
+      },
+      {
+        "clase": "Participaciones",
+        "descripcion": "PARTICIPACIONES 12,48% DEL CAPITAL SOCIAL GRUCOCA INMOBILIARIA S.L. A 31/12/2022",
+        "valor_euros": 304711
+      },
+      {
+        "clase": "Acciones",
+        "descripcion": "ACCIONES 12,5% DEL CAPITAL SOCIAL ESTACIONES Y ARRENDAMIENTOS S.A. A 31/12/2022",
+        "valor_euros": 142554
+      },
+      {
+        "clase": "Participaciones",
+        "descripcion": "PARTICIPACIONES BCLEVER SL.A. A 31/12/2022",
+        "valor_euros": 6269
+      },
+      {
+        "clase": "Acciones",
+        "descripcion": "ACCIONES TELEFÓNICA A 09/08/2023",
+        "valor_euros": 2526
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "PLANES DE PENSIONES A 09/08/2023",
+        "valor_euros": 163727
+      },
+      {
+        "descripcion": "PLAN PREVISIÓN PROFESIONAL MUTUALIDAD ABOGACÍA A 31/12/2022",
+        "valor_euros": 94722
+      }
+    ],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000013/000013_000_e_0000059_20230802.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/maria-carmen-castilla-alvarez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/15_15.jpg",
+    "nombre": "María Carmen Castilla Álvarez",
+    "id_interno": "22",
+    "genero": "M",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Sevilla",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "02/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "02/08/2023",
+    "irpf_pagado": 10630.27,
+    "sueldo_real_euros": 101392.76,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Nómina anual neta (12 pagas)",
+        "euros": 30288
+      },
+      {
+        "concepto": "Rendimiento neto renta 2022",
+        "euros": 43624.78
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda",
+        "situacion": "Sevilla",
+        "fecha_adquisicion": "1995",
+        "derecho_titulo": "Pleno dominio compraventa"
+      },
+      {
+        "clase": "Vivienda",
+        "situacion": "Sevilla",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "Ganancial compraventa"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 21878.26
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Nissan Qashqai",
+        "fecha_adquisicion": "2010"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Crédito Hipotecario Bankia",
+        "fecha_concesion": "2005",
+        "importe_concedido_euros": 153000,
+        "saldo_pendiente_euros": 31000
+      },
+      {
+        "descripcion_acreedor": "Crédito Hipotecario UCI (50%)",
+        "fecha_concesion": "2021",
+        "importe_concedido_euros": 249000,
+        "saldo_pendiente_euros": 235000
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000178/000178_000_e_0000759_20230809.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/maria-dolores-corujo-berriel",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/187_15.jpg",
+    "nombre": "María Dolores Corujo Berriel",
+    "id_interno": "27",
+    "genero": "M",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Las Palmas",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "09/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "09/08/2023",
+    "irpf_pagado": 21277.84,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Rendimiento del trabajo",
+        "euros": 73002.54
+      }
+    ],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente o de ahorro",
+        "saldo_euros": 23304.66
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000155/000155_000_e_0000668_20230808.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/maria-luisa-faneca-lopez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/167_15.jpg",
+    "nombre": "María Luisa Faneca López",
+    "id_interno": "38",
+    "genero": "M",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Huelva",
+    "estado_civil": "Viudo",
+    "regimen_economico": null,
+    "fecha_declaracion": "08/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "08/08/2023",
+    "irpf_pagado": 23809.12,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Trienios (ISM)",
+        "euros": 6519.77
+      },
+      {
+        "concepto": "Interés cuenta bancaria",
+        "euros": 14.01
+      },
+      {
+        "concepto": "Pensión viudedad",
+        "euros": 10974.74
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Piso",
+        "situacion": "Huelva",
+        "fecha_adquisicion": "2005",
+        "derecho_titulo": "Pleno dominio por compraventa"
+      },
+      {
+        "clase": "Vivienda unifamiliar",
+        "situacion": "Huelva",
+        "fecha_adquisicion": "2016",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 14100
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Chevrolet Matiz",
+        "fecha_adquisicion": "01/10/2009"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Microcrédito al PSOE",
+        "descripcion": "Microcrédito al PSOE",
+        "valor_euros": 1000
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Plan de pensiones",
+        "valor_euros": 22450
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipoteca-Caixabank",
+        "fecha_concesion": "22/09/2016",
+        "importe_concedido_euros": 90000,
+        "saldo_pendiente_euros": 70764.4
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000076/000076_001_e_0068635_20250514.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/maria-mercedes-fernandez-gonzalez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/82_15.jpg",
+    "nombre": "María Mercedes Fernández González",
+    "id_interno": "40",
+    "genero": "M",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Asturias",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "03/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "03/08/2023",
+    "irpf_pagado": 20394,
+    "sueldo_real_euros": 101392.76,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Dividendos acciones con cotización oficial",
+        "euros": 5103
+      },
+      {
+        "concepto": "Ganancias patrimoniales de accciones, participaciones y fondos de inversión con cotización oficial",
+        "euros": 16907
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Piso",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "01/1985",
+        "derecho_titulo": "Pleno dominio compra (50%)"
+      },
+      {
+        "clase": "Plaza de garaje",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "05/1993",
+        "derecho_titulo": "Pleno dominio compra"
+      },
+      {
+        "clase": "Vivienda",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "04/2025",
+        "derecho_titulo": "Pleno dominio compra (50%)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas bancarias (saldo a 31 de julio de 2023)",
+        "saldo_euros": 61401
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Acciones, participaciones y fondos de inversión",
+        "descripcion": "Acciones, participaciones y fondos de inversión",
+        "valor_euros": 561731
+      }
+    ],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Mutualidad de la abogacía y plan de pensiones",
+        "valor_euros": 106791
+      }
+    ],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000306/000306_000_e_0001289_20230816.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/maria-soledad-cruz-guzman-garcia",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/319_15.jpg",
+    "nombre": "María Soledad Cruz-Guzmán García",
+    "id_interno": "30",
+    "genero": "M",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Sevilla",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "16/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "16/08/2023",
+    "irpf_pagado": 15060,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "VIVIENDA EN EDIFICIO PLURIFAMILIAR",
+        "situacion": "SEVILLA",
+        "fecha_adquisicion": "2017",
+        "derecho_titulo": "NUDA PROPIEDAD (33%) DONACIÓN"
+      },
+      {
+        "clase": "VIVIENDA EN EDIFICIO PLURIFAMILIAR",
+        "situacion": "PUERTA SANTA MARÍA (CÁDIZ)",
+        "fecha_adquisicion": "2022",
+        "derecho_titulo": "NUDA PROPIEDAD 100% DONACIÓN"
+      },
+      {
+        "clase": "VIVIENDA UNIFAMILIAR",
+        "situacion": "SEVILLA",
+        "fecha_adquisicion": "2009",
+        "derecho_titulo": "25% PROPIEDAD COMPRAVENTA"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "CUENTA CORRIENTE",
+        "saldo_euros": 47300
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "JAGUAR S TYPE (PROPIEDAD DE SLP CASA SOLARANA)",
+        "fecha_adquisicion": "2003"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000038/000038_000_e_0000175_20230802.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/maribel-garcia-lopez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/49_15.jpg",
+    "nombre": "Maribel García López",
+    "id_interno": "45",
+    "genero": "M",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Badajoz",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "02/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "02/08/2023",
+    "irpf_pagado": 13997.78,
+    "sueldo_real_euros": 112376.46,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Trienios cuerpo de maestros — Consejería de educación y empleo (Junta de Extremadura)",
+        "euros": 1892.84
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda",
+        "situacion": "Badajoz",
+        "fecha_adquisicion": "2001",
+        "derecho_titulo": "Compraventa (50%)"
+      },
+      {
+        "clase": "Dos garajes",
+        "situacion": "Badajoz",
+        "fecha_adquisicion": "2001",
+        "derecho_titulo": "Compraventa (50%)"
+      },
+      {
+        "clase": "Dos trasteros",
+        "situacion": "Badajoz",
+        "fecha_adquisicion": "2001",
+        "derecho_titulo": "Compraventa (50%)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 10631.78
+      },
+      {
+        "tipo": "Cuenta corriente (50%)",
+        "saldo_euros": 1750.23
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Plan de pensiones",
+        "valor_euros": 13628.03
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipoteca (50%)",
+        "fecha_concesion": "2005",
+        "importe_concedido_euros": 80000,
+        "saldo_pendiente_euros": 37983.19
+      },
+      {
+        "descripcion_acreedor": "Personal (50%)",
+        "fecha_concesion": "2021",
+        "importe_concedido_euros": 35000,
+        "saldo_pendiente_euros": 13558.5
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000189/000189_000_e_0000806_20230809.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/marta-gonzalez-vazquez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/200_15.jpg",
+    "nombre": "Marta González Vázquez",
+    "id_interno": "50",
+    "genero": "M",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "A Coruña",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "09/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "09/08/2023",
+    "irpf_pagado": 30603.41,
+    "sueldo_real_euros": 144074,
+    "observaciones": "En el año fiscal 2022 recibe una herencia que supone un incremento patrimonial en las cuentas corrientes y el fondo de inversión.",
+    "rentas": [
+      {
+        "concepto": "Percepciones como diputada",
+        "euros": null
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda habitual",
+        "situacion": "A Coruña",
+        "fecha_adquisicion": "02/08/2001",
+        "derecho_titulo": "Pleno dominio por compraventa"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 62613
+      },
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 87142
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Citroën Gran Picasso Avatar HDI 110",
+        "fecha_adquisicion": "03/06/2011"
+      },
+      {
+        "descripcion": "Mazda 2",
+        "fecha_adquisicion": "21/01/2016"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Fondo de inversión",
+        "descripcion": "Fondo de inversión Abanca",
+        "valor_euros": 63574.88
+      },
+      {
+        "clase": "Participaciones",
+        "descripcion": "ING Superfondo dinámico",
+        "valor_euros": 3598
+      }
+    ],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario sobre vivienda habitual",
+        "fecha_concesion": "2001",
+        "importe_concedido_euros": 181505.66,
+        "saldo_pendiente_euros": 2347.85
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000286/000286_000_e_0001200_20230814.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/mertxe-aizpurua-arzallus",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/300_15.jpg",
+    "nombre": "Mertxe Aizpurua Arzallus",
+    "id_interno": "4",
+    "genero": "M",
+    "partido": "EH Bildu",
+    "cargo": "Diputado",
+    "circunscripcion": "Gipuzkoa",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "16/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "14/08/2023",
+    "irpf_pagado": 20752.09,
+    "sueldo_real_euros": 139710.06,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "PISO",
+        "situacion": "GUIPUZKOA",
+        "fecha_adquisicion": "2000",
+        "derecho_titulo": "PLENO DOMINIO, DONACION Y COMPRAVENTA FAMILIA"
+      },
+      {
+        "clase": "GARAJE",
+        "situacion": "GUIPUZKOA",
+        "fecha_adquisicion": "2022",
+        "derecho_titulo": "50% PLENO DOMINIIO COPRAVENTA"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 19400
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Citroen Cactus C4",
+        "fecha_adquisicion": "2017"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "SEGURO DE VIDA",
+        "valor_euros": 30287.48
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "HIPOTECA",
+        "fecha_concesion": "2000",
+        "importe_concedido_euros": 102172,
+        "saldo_pendiente_euros": 822.87
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000103/000103_001_e_0096608_20260202.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/oscar-clavell-lopez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/109_15.jpg",
+    "nombre": "Óscar Clavell López",
+    "id_interno": "24",
+    "genero": "",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Castellón",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "02/02/2026",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "04/08/2023",
+    "irpf_pagado": 15584.94,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Rentas por alquiler (anual)",
+        "euros": 2400
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda",
+        "situacion": "La Vall d'Uixo",
+        "fecha_adquisicion": "26/07/2007",
+        "derecho_titulo": "Pleno dominio compraventa"
+      },
+      {
+        "clase": "Plaza de aparcamiento",
+        "situacion": "La Vall d'Uixo",
+        "fecha_adquisicion": "26/07/2007",
+        "derecho_titulo": "Pleno dominio compraventa"
+      },
+      {
+        "clase": "Trastero",
+        "situacion": "La Vall d'Uixo",
+        "fecha_adquisicion": "26/07/2007",
+        "derecho_titulo": "Pleno dominio compraventa"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas corrientes (Banco Sabadell, Caja Rural la Vall) y plan de ahorro del Banco Sabadell",
+        "saldo_euros": 215687.27
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Volkswagen Tiguan",
+        "fecha_adquisicion": "2014"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo de vivienda Banco Sabadell",
+        "fecha_concesion": "26/07/2007",
+        "importe_concedido_euros": 110672,
+        "saldo_pendiente_euros": 30573.66
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000157/000157_000_e_0000675_20230808.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/patricia-blanquer-alcaraz",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/170_15.jpg",
+    "nombre": "Patricia Blanquer Alcaraz",
+    "id_interno": "18",
+    "genero": "M",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Alicante",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "08/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "08/08/2023",
+    "irpf_pagado": 13527.26,
+    "sueldo_real_euros": 129905.02,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Microcrédito",
+        "euros": 12.81
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda urbana",
+        "situacion": "Alicante",
+        "fecha_adquisicion": "04/01/1999",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      },
+      {
+        "clase": "Plaza aparcamiento",
+        "situacion": "Alicante",
+        "fecha_adquisicion": "04/01/1999",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      },
+      {
+        "clase": "Trastero",
+        "situacion": "Alicante",
+        "fecha_adquisicion": "04/01/1999",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      },
+      {
+        "clase": "Plaza de aparcamiento",
+        "situacion": "Alicante",
+        "fecha_adquisicion": "07/03/2001",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      },
+      {
+        "clase": "Vivienda urbana y trastero",
+        "situacion": "Alicante",
+        "fecha_adquisicion": "28/12/2012",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      },
+      {
+        "clase": "Plaza de aparcamiento",
+        "situacion": "Alicante",
+        "fecha_adquisicion": "28/12/2012",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      },
+      {
+        "clase": "Plaza de aparcamiento",
+        "situacion": "Alicante",
+        "fecha_adquisicion": "28/12/2012",
+        "derecho_titulo": "Pleno dominio por compraventa (50%)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Depósitos y saldo en cuentas corrientes",
+        "saldo_euros": 32159.69
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "SUV C3 AIRCROSS",
+        "fecha_adquisicion": "07/2020"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "Microcrédito al PSOE",
+        "valor_euros": 3000
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario Banco Santander",
+        "fecha_concesion": "28/12/2012",
+        "importe_concedido_euros": 35517.56,
+        "saldo_pendiente_euros": 20693.31
+      },
+      {
+        "descripcion_acreedor": "Préstamo hipotecario Banco Sabadell",
+        "fecha_concesion": "28/12/2012",
+        "importe_concedido_euros": 144720,
+        "saldo_pendiente_euros": 73325.71
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000149/000149_001_e_0123791_20260805.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/rafaela-crespin-rubio",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/154_15.jpg",
+    "nombre": "Rafaela Crespín Rubio",
+    "id_interno": "28",
+    "genero": "M",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Córdoba",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "05/08/2026",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "08/08/2023",
+    "irpf_pagado": 16788.22,
+    "sueldo_real_euros": 101392.76,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda",
+        "situacion": "Córdoba",
+        "fecha_adquisicion": "2008",
+        "derecho_titulo": "Pleno dominio por compraventa"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Dos cuentas bancarias",
+        "saldo_euros": 22500
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "RENAULT ARKANA TECHNO FULL HYBRYD E-TECH",
+        "fecha_adquisicion": "24/12/2025"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario",
+        "fecha_concesion": "2008",
+        "importe_concedido_euros": 280000,
+        "saldo_pendiente_euros": 201392.4
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000287/000287_000_e_0001201_20230814.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/ricardo-chamorro-delmo",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/294_15.jpg",
+    "nombre": "Ricardo Chamorro Delmo",
+    "id_interno": "23",
+    "genero": "H",
+    "partido": "VOX",
+    "cargo": "Diputado",
+    "circunscripcion": "Ciudad Real",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "14/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "14/08/2023",
+    "irpf_pagado": 20138.52,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 40072.83
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "MERCEDES GLC",
+        "fecha_adquisicion": "16/07/2021"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "MUTUALIDAD DE LA ABOGACÍA",
+        "valor_euros": 19491.5
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "PRÉSTAMO PERSONAL EUROCAJARURAL",
+        "fecha_concesion": "30/03/2017",
+        "importe_concedido_euros": 45000,
+        "saldo_pendiente_euros": 10830.93
+      },
+      {
+        "descripcion_acreedor": "PRÉSTAMO PERSONAL CAIXA",
+        "fecha_concesion": "16/07/2021",
+        "importe_concedido_euros": 25000,
+        "saldo_pendiente_euros": 18724.12
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000182/000182_001_e_0057279_20250220.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/roberto-garcia-moris",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/195_15.jpg",
+    "nombre": "Roberto García Morís",
+    "id_interno": "46",
+    "genero": "H",
+    "partido": "PSOE",
+    "cargo": "Diputado",
+    "circunscripcion": "Asturias",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "20/02/2025",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "09/08/2023",
+    "irpf_pagado": 13382.58,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda con garaje",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "1990",
+        "derecho_titulo": "Multipropiedad por herencia (25%)"
+      },
+      {
+        "clase": "Apartamento",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2012",
+        "derecho_titulo": "Herencia (100%)"
+      },
+      {
+        "clase": "Vivienda",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2015",
+        "derecho_titulo": "Multipropiedad por herencia (50%)"
+      },
+      {
+        "clase": "Vivienda",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2024",
+        "derecho_titulo": "Herencia (100%)"
+      },
+      {
+        "clase": "Solar",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2024",
+        "derecho_titulo": "Multipropiedad por herencia (50%)"
+      },
+      {
+        "clase": "Finca rústica",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "1990",
+        "derecho_titulo": "Multipropiedad por herencia (25%)"
+      },
+      {
+        "clase": "Fincas rústicas",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2012",
+        "derecho_titulo": "Multipropiedad por herencia (50%)"
+      },
+      {
+        "clase": "Finca rústica",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2016",
+        "derecho_titulo": "Multipropiedad por herencia (50%)"
+      },
+      {
+        "clase": "Fincas rústicas",
+        "situacion": "Asturias",
+        "fecha_adquisicion": "2024",
+        "derecho_titulo": "Multipropiedad por herencia (50%)"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "5 cuentas corrientes",
+        "saldo_euros": 11260.25
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "TOYOTA YARIS SOL",
+        "fecha_adquisicion": "2007"
+      },
+      {
+        "descripcion": "MERCEDES CLASE A",
+        "fecha_adquisicion": "2012"
+      },
+      {
+        "descripcion": "MERCEDES CLASE B",
+        "fecha_adquisicion": "2024"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario (Caja Rural de Asturias)",
+        "fecha_concesion": "22/03/2023",
+        "importe_concedido_euros": 60000,
+        "saldo_pendiente_euros": 57317
+      },
+      {
+        "descripcion_acreedor": "Préstamo personal (Caja Rural de Asturias)",
+        "fecha_concesion": "15/02/2024",
+        "importe_concedido_euros": 26000,
+        "saldo_pendiente_euros": 19931.18
+      },
+      {
+        "descripcion_acreedor": "Préstamo hipotecario vivienda (Caja Rural de Asturias)",
+        "fecha_concesion": "04/04/2024",
+        "importe_concedido_euros": 35000,
+        "saldo_pendiente_euros": 30221.37
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000278/000278_000_e_0001171_20230814.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/rocio-de-meer-mendez",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/284_15.jpg",
+    "nombre": "Rocío De Meer Méndez",
+    "id_interno": "33",
+    "genero": "M",
+    "partido": "VOX",
+    "cargo": "Diputado",
+    "circunscripcion": "Almería",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "14/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "14/08/2023",
+    "irpf_pagado": 21021.79,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "VIVIENDA UNIFAMILIAR CON GARAJE",
+        "situacion": "ALMERÍA",
+        "fecha_adquisicion": "2018",
+        "derecho_titulo": "PROPIEDAD COMPRAVENTA"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuentas corrientes",
+        "saldo_euros": 17612.45
+      }
+    ],
+    "vehiculos": [],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "HIPOTECA PARA COMPRA VIVIENDA",
+        "fecha_concesion": "2018",
+        "importe_concedido_euros": 50000,
+        "saldo_pendiente_euros": 30460.38
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000146/000146_000_e_0000633_20230808.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/silverio-arguelles-garcia",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/163_15.jpg",
+    "nombre": "Silverio Argüelles García",
+    "id_interno": "12",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Asturias",
+    "estado_civil": "Casado",
+    "regimen_economico": "Separación de bienes",
+    "fecha_declaracion": "10/10/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "08/08/2023",
+    "irpf_pagado": 6809.67,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "Salario",
+        "euros": 42037.31
+      }
+    ],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda",
+        "situacion": "Posada de Llanera (Asturias)",
+        "fecha_adquisicion": "04/03/2010",
+        "derecho_titulo": "Compraventa en gananciales"
+      },
+      {
+        "clase": "Piso",
+        "situacion": "Lugo de llanera (asturias)",
+        "fecha_adquisicion": "10/02/2022",
+        "derecho_titulo": "Compraventa"
+      },
+      {
+        "clase": "Piso",
+        "situacion": "Lugo de llanera (asturias)",
+        "fecha_adquisicion": "10/02/2022",
+        "derecho_titulo": "Compraventa"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Cuenta corriente",
+        "saldo_euros": 14659.21
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Renault Arkana",
+        "fecha_adquisicion": "19/11/2021"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "LARES DEL NORTE SL",
+        "descripcion": "25.204 participaciones sociales",
+        "valor_euros": 12601.5
+      },
+      {
+        "clase": "MARIÑANA FACILITY SERVICES SL",
+        "descripcion": "39.249 participaciones sociales",
+        "valor_euros": 39249
+      }
+    ],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Hipoteca vivienda habitual",
+        "fecha_concesion": "04/03/2010",
+        "importe_concedido_euros": 330000,
+        "saldo_pendiente_euros": 225813.32
+      },
+      {
+        "descripcion_acreedor": "Préstamo personal",
+        "fecha_concesion": "05/06/2019",
+        "importe_concedido_euros": 20360,
+        "saldo_pendiente_euros": 6146
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000329/000329_000_e_0001380_20230816.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/teslem-andala-ubbi",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/338_15.jpg",
+    "nombre": "Teslem Andala Ubbi",
+    "id_interno": "9",
+    "genero": "M",
+    "partido": "SUMAR",
+    "cargo": "Diputado",
+    "circunscripcion": "Madrid",
+    "estado_civil": "Soltero",
+    "regimen_economico": null,
+    "fecha_declaracion": "16/08/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "16/08/2026",
+    "irpf_pagado": 13106.5,
+    "sueldo_real_euros": 79119.74,
+    "observaciones": null,
+    "rentas": [
+      {
+        "concepto": "SALARIO NETO SANTANDER GLOBAL TECHNOLOGIES",
+        "euros": 38784.2
+      }
+    ],
+    "bienes_inmuebles": [],
+    "depositos": [
+      {
+        "tipo": "Dos cuentas corrientes",
+        "saldo_euros": 890
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "TOYOTA AURIS",
+        "fecha_adquisicion": "28/02/2023"
+      }
+    ],
+    "deuda_publica_y_acciones": [],
+    "otros_bienes_no_declarados": [
+      {
+        "descripcion": "PLAN DE AHORROS GES SEGUROS",
+        "valor_euros": 18514.92
+      }
+    ],
+    "deudas": [
+      {
+        "descripcion_acreedor": "PRÉSTAMO PERSONAL COCHE",
+        "fecha_concesion": "28/02/2022",
+        "importe_concedido_euros": 13500,
+        "saldo_pendiente_euros": 9391.93
+      },
+      {
+        "descripcion_acreedor": "PRÉSTAMO ESTUDIANTE",
+        "fecha_concesion": "06/06/2022",
+        "importe_concedido_euros": 4500,
+        "saldo_pendiente_euros": 2716.84
+      }
+    ],
+    "_pendiente_verificar": []
+  },
+  {
+    "fuente_pdf": "https://www.congreso.es/docbienes/leg15/000001/000001_000_e_0000005_20230731.pdf",
+    "url_transparentia": "https://transparentia.newtral.es/ficha/tomas-cabezon-casas",
+    "foto_url": "https://www.congreso.es/docu/imgweb/diputados/2_15.jpg",
+    "nombre": "Tomás Cabezón Casas",
+    "id_interno": "20",
+    "genero": "H",
+    "partido": "PP",
+    "cargo": "Diputado",
+    "circunscripcion": "Soria",
+    "estado_civil": "Casado",
+    "regimen_economico": "Gananciales",
+    "fecha_declaracion": "31/07/2023",
+    "fecha_eleccion": "23/07/2023",
+    "fecha_credencial": "",
+    "irpf_pagado": 13583.32,
+    "sueldo_real_euros": 94946.32,
+    "observaciones": null,
+    "rentas": [],
+    "bienes_inmuebles": [
+      {
+        "clase": "Vivienda habitual (piso)",
+        "situacion": "Soria",
+        "fecha_adquisicion": "12/2010",
+        "derecho_titulo": "Pleno dominio por compraventa"
+      },
+      {
+        "clase": "Plaza de aparcamiento",
+        "situacion": "Soria",
+        "fecha_adquisicion": "05/2012",
+        "derecho_titulo": "Pleno dominio por compraventa"
+      },
+      {
+        "clase": "Plaza de aparcamiento",
+        "situacion": "Soria",
+        "fecha_adquisicion": "2021",
+        "derecho_titulo": "Pleno dominio por compraventa"
+      }
+    ],
+    "depositos": [
+      {
+        "tipo": "Caja Rural (50%)",
+        "saldo_euros": 27103
+      },
+      {
+        "tipo": "Caja Rural",
+        "saldo_euros": 71035
+      },
+      {
+        "tipo": "Bankinter",
+        "saldo_euros": 23500
+      }
+    ],
+    "vehiculos": [
+      {
+        "descripcion": "Volkswagen Tiguan",
+        "fecha_adquisicion": "03/2019"
+      }
+    ],
+    "deuda_publica_y_acciones": [
+      {
+        "clase": "Fondos de ahorro e inversión Bankinter",
+        "descripcion": "",
+        "valor_euros": 40850
+      },
+      {
+        "clase": "Fondos de ahorro e inversión Caja Rural de Soria",
+        "descripcion": "",
+        "valor_euros": 21150
+      }
+    ],
+    "otros_bienes_no_declarados": [],
+    "deudas": [
+      {
+        "descripcion_acreedor": "Préstamo hipotecario",
+        "fecha_concesion": "21/12/2010",
+        "importe_concedido_euros": 170000,
+        "saldo_pendiente_euros": 70847.8
+      }
+    ],
+    "_pendiente_verificar": []
+  }
+]

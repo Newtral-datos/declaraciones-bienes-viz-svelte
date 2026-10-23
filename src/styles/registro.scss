@@ -1,0 +1,730 @@
+// b-registro — portada del registro y navegación hasta cada ficha
+//
+// El vocabulario visual sale del impreso oficial que firma cada diputado,
+// el mismo criterio con el que está hecho el backoffice: cabecera
+// administrativa, títulos de campo en versalitas, índices con puntos
+// conductores, sello de registro y foto tipo carné. De ahí vienen dos
+// reglas que se aplican en todo el fichero:
+//
+//   - Ninguna esquina redondeada. En el impreso no hay ninguna.
+//   - El verde de marca significa *verificado*, nada más: el filete del
+//     sello, el canto del diputado señalado y la barra de carga. Si se
+//     usa para decorar, deja de querer decir algo.
+
+@use "basic" as *;
+@use "mixins" as *;
+@use "breakpoints" as *;
+
+// Versalitas de título de campo. Son el único recurso tipográfico que se
+// repite en todo el bloque, así que vive en un sitio.
+@mixin versalita($size: 10px, $color: $dark60) {
+  font-size: $size;
+  font-weight: $fw-medium;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: $color;
+}
+
+@mixin foco {
+  &:focus-visible {
+    outline: 2px solid $dark;
+    outline-offset: 2px;
+  }
+}
+
+// Título de campo del impreso. El min-width no es capricho: alinea los
+// filetes verticales de las dos filas de mandos («Ordenar por» y
+// «Buscar») en una sola línea continua, que es lo que las hace leerse
+// como un formulario y no como dos barras sueltas.
+%etiqueta-campo {
+  padding-right: $h-unit-s;
+  border-right: 1px solid $rule;
+  @include versalita(10px, $dark60);
+
+  @include respond-above(sm) {
+    min-width: 96px;
+  }
+}
+
+// Puntos conductores, como en el índice de cualquier impreso: llevan el
+// ojo de un extremo de la fila al otro sin encajonarla. El color sale de
+// --punto, que la fila cambia al pasar por encima.
+%puntos {
+  height: 2px;
+  background-image: linear-gradient(90deg, var(--punto) 0 2px, transparent 2px 7px);
+  background-size: 7px 2px;
+  background-repeat: repeat-x;
+}
+
+.b-registro {
+  // ─── Cabecera ──────────────────────────────────────────────────────
+
+  &__masthead {
+    border-top: 2px solid $dark;
+  }
+
+  // Dos columnas: el texto a la izquierda, el sello arriba a la derecha,
+  // como en el impreso escaneado. Por debajo de md se apilan y el sello
+  // pasa a ser un bloque más, sin girar.
+  &__masthead-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "admin admin"
+      "title stamp"
+      "lede  stamp";
+    column-gap: $h-unit-xl;
+    align-items: start;
+    padding-top: $v-unit;
+    padding-bottom: 52px;
+
+    @include respond-below(md) {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-areas:
+        "admin"
+        "title"
+        "lede"
+        "stamp";
+      padding-bottom: $v-unit-l;
+    }
+  }
+
+  &__admin {
+    @include display-flex;
+    grid-area: admin;
+    justify-content: space-between;
+    gap: $h-unit;
+    flex-wrap: wrap;
+    padding-bottom: $v-unit-m;
+    @include versalita(10px, $dark60);
+  }
+
+  &__title {
+    grid-area: title;
+    max-width: 13em;
+    color: $black;
+    font-size: clamp(34px, 6vw, 56px);
+    font-weight: $fw-bold;
+    line-height: 1.02;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+
+  &__lede {
+    grid-area: lede;
+    max-width: 46em;
+    margin-top: $v-unit;
+    color: $dark80;
+    font-size: $fs-l;
+    line-height: 1.45;
+
+    @include respond-below(sm) {
+      font-size: $fs-m;
+    }
+  }
+
+  // El sello de registro: el elemento que lleva la idea del impreso. Dos
+  // filetes con aire entre ellos (el interior es el `border`, el exterior
+  // la segunda sombra; la primera pinta el hueco en blanco) y un giro de
+  // grado y pico, lo que se desvía una estampación a mano.
+  &__stamp {
+    grid-area: stamp;
+    justify-self: end;
+    max-width: 232px;
+    margin-top: $v-unit-s;
+    padding: $v-unit-m;
+    border: 1px solid $dark;
+    box-shadow:
+      0 0 0 3px $white,
+      0 0 0 4px $dark;
+    transform: rotate(-1.2deg);
+
+    @include respond-below(md) {
+      justify-self: start;
+      margin-top: $v-unit-l;
+    }
+  }
+
+  &__stamp-label {
+    display: block;
+    @include versalita(10px, $dark);
+  }
+
+  &__stamp-figure {
+    display: block;
+    margin-top: $v-unit-xs;
+    font-size: $fs-s;
+    font-weight: $fw-semibold;
+    line-height: 1.35;
+    font-variant-numeric: tabular-nums;
+  }
+
+  // El único verde de la cabecera, y dice lo que dicen las dos líneas de
+  // arriba: esto está comprobado.
+  &__stamp-rule {
+    display: block;
+    height: 2px;
+    margin: $v-unit-s 0;
+    background-color: $primary;
+  }
+
+  &__stamp-ref {
+    display: block;
+    @include versalita(9px, $dark60);
+  }
+
+  // ─── Índice de grupos ──────────────────────────────────────────────
+
+  &__index {
+    margin-top: $v-unit-l;
+  }
+
+  // Filete de cabeza de tabla: cierra el encabezado y hace de borde
+  // superior de la primera fila, que así no necesita el suyo.
+  &__index-head {
+    @include display-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: $h-unit;
+    padding-bottom: $v-unit-s;
+    border-bottom: 1px solid $dark;
+  }
+
+  &__index-title {
+    @include versalita(11px, $dark);
+    font-weight: $fw-semibold;
+  }
+
+  &__index-note {
+    @include versalita(10px, $dark60);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  &__party {
+    --punto: #{$rule-strong};
+
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: baseline;
+    gap: $h-unit-s;
+    width: 100%;
+    padding: $v-unit $h-unit-s $v-unit-s;
+    border: 0;
+    border-bottom: 1px solid $rule;
+    background: none;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+    @include transition(background-color $ts-ui);
+    @include foco;
+
+    &:hover {
+      --punto: #{$dark};
+      background-color: $gray;
+    }
+  }
+
+  &__party-name {
+    font-size: $fs-l;
+    font-weight: $fw-semibold;
+    color: $dark;
+  }
+
+  // Las cifras y el nombre se alinean por la línea base, así que los
+  // puntos hay que levantarlos hasta la altura de la x.
+  &__party-dots {
+    @extend %puntos;
+    transform: translateY(-5px);
+  }
+
+  &__party-count {
+    font-size: $fs-xl;
+    font-weight: $fw-bold;
+    color: $dark;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  &__party-unit {
+    margin-left: 7px;
+    @include versalita(10px, $dark60);
+  }
+
+  &__party-go {
+    color: $dark60;
+    font-size: $fs-s;
+    opacity: 0.35;
+    @include transition(opacity $ts-ui);
+
+    .b-registro__party:hover &,
+    .b-registro__result:hover & {
+      opacity: 1;
+    }
+  }
+
+  // ─── Mandos: ordenar y buscar ──────────────────────────────────────
+  //
+  // Dos filas con la misma geometría que las del índice, cada una con su
+  // título de campo a la izquierda: rellenar los huecos de la cabecera de
+  // un impreso para consultarlo, no una barra de herramientas encima de
+  // la tabla.
+
+  &__orders {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: $h-unit-s;
+    padding: 0 $h-unit-s;
+    border-bottom: 1px solid $rule;
+  }
+
+  &__order-label {
+    @extend %etiqueta-campo;
+  }
+
+  &__order-tabs {
+    @include display-flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 7px 0;
+  }
+
+  &__order-tab {
+    padding: 5px $h-unit-xs;
+    border: 1px solid $rule;
+    background-color: $white;
+    cursor: pointer;
+    @include versalita(10px, $dark60);
+    @include transition(background-color $ts-ui, border-color $ts-ui, color $ts-ui);
+    @include foco;
+
+    &:hover {
+      border-color: $rule-strong;
+      background-color: $gray;
+      color: $dark;
+    }
+
+    // El activo va relleno de tinta, como el hover de los demás botones
+    // de la página; el hover de los inactivos se queda en gris para que
+    // no haya dos cosas que parezcan lo mismo.
+    &--activo,
+    &--activo:hover {
+      border-color: $dark;
+      background-color: $dark;
+      color: $white;
+    }
+  }
+
+  &__search {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: $h-unit-s;
+    padding: 0 $h-unit-s;
+    border-bottom: 1px solid $rule;
+    // El filete de abajo engorda al enfocar en lugar de cambiar de
+    // grosor: así la fila no se mueve 1px al entrar en el campo.
+    @include transition(box-shadow $ts-ui);
+
+    &:focus-within {
+      box-shadow: inset 0 -2px 0 $dark;
+    }
+  }
+
+  &__search-label {
+    @extend %etiqueta-campo;
+    cursor: pointer;
+  }
+
+  &__search-input {
+    width: 100%;
+    min-width: 0;
+    padding: $v-unit-s 0;
+    border: 0;
+    background: none;
+    color: $dark;
+    font-family: inherit;
+    font-size: $fs-l;
+    font-weight: $fw-medium;
+
+    &::placeholder {
+      color: rgba($dark, 0.38);
+      font-weight: $fw-normal;
+    }
+
+    // Sin anillo propio porque el foco ya se ve: el filete inferior de
+    // la fila entera engorda con :focus-within.
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__search-clear {
+    padding: 6px 0;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    @include versalita(9px, $dark60);
+    @include foco;
+
+    &:hover {
+      color: $dark;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+
+  // ─── Resultados ────────────────────────────────────────────────────
+
+  &__result {
+    --punto: #{$rule-strong};
+
+    @include display-flex;
+    @include align-items(center);
+    gap: $h-unit-s;
+    width: 100%;
+    padding: $v-unit-s $h-unit-s;
+    border: 0;
+    border-bottom: 1px solid $rule;
+    background: none;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+    @include transition(background-color $ts-ui);
+    @include foco;
+
+    &:hover {
+      --punto: #{$dark};
+      background-color: $gray;
+    }
+  }
+
+  &__result-photo {
+    @include display-flex;
+    @include flex-center;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    background-color: $dark;
+    color: $primary;
+    font-weight: $fw-bold;
+    font-size: $fs-xs;
+    object-fit: cover;
+  }
+
+  // El puesto en la clasificación. Tabular y a la derecha para que las
+  // unidades caigan en la misma columna al pasar de 9 a 10.
+  &__result-rank {
+    flex-shrink: 0;
+    min-width: 22px;
+    text-align: right;
+    font-size: $fs-s;
+    font-weight: $fw-semibold;
+    color: $dark60;
+    font-variant-numeric: tabular-nums;
+  }
+
+  &__result-text {
+    min-width: 0;
+  }
+
+  &__result-name {
+    display: block;
+    overflow: hidden;
+    font-size: $fs-m;
+    font-weight: $fw-semibold;
+    color: $dark;
+    line-height: 1.25;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &__result-dots {
+    @extend %puntos;
+    flex: 1;
+    min-width: $h-unit;
+    align-self: center;
+  }
+
+  &__result-meta {
+    display: block;
+    margin-top: 3px;
+    @include versalita(9px, $dark60);
+  }
+
+  // La cifra por la que se está clasificando: el dato que justifica el
+  // orden, así que es lo segundo que se lee después del nombre.
+  &__result-figure {
+    flex-shrink: 0;
+    font-size: $fs-m;
+    font-weight: $fw-semibold;
+    color: $dark;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  // Marca de cifra incompleta. En el flujo del texto y no en un color
+  // propio: un asterisco se ve en cualquier pantalla y lo explica la nota
+  // al pie, que es como se hace en un documento.
+  &__result-flag {
+    margin-left: 1px;
+    color: $dark60;
+  }
+
+  // En pantalla estrecha no caben nombre, puntos y cifra: manda la cifra,
+  // que es por lo que se está ordenando.
+  @include respond-below(sm) {
+    &__result-dots {
+      display: none;
+    }
+  }
+
+  // ─── Notas ─────────────────────────────────────────────────────────
+
+  // Qué cuenta exactamente la columna por la que se ordena. Va debajo de
+  // los mandos y encima de la lista, porque leer la clasificación sin
+  // saber qué suma es leerla mal.
+  &__caption {
+    padding: $v-unit-s $h-unit-s;
+    border-bottom: 1px solid $rule;
+    font-size: $fs-xs;
+    line-height: $lh-medium;
+    color: $dark60;
+  }
+
+  &__footnote {
+    padding: $v-unit-s $h-unit-s 0;
+    font-size: $fs-xs;
+    line-height: $lh-medium;
+    color: $dark60;
+  }
+
+  // ─── Rastro de navegación ──────────────────────────────────────────
+
+  &__trail {
+    @include display-flex;
+    @include align-items(center);
+    gap: $h-unit-s $h-unit;
+    flex-wrap: wrap;
+    margin-top: $v-unit-m;
+  }
+
+  &__back {
+    @include display-flex;
+    @include align-items(center);
+    gap: $h-unit-xs;
+    padding: 9px $h-unit;
+    border: 1px solid $rule;
+    background-color: $white;
+    color: $dark;
+    cursor: pointer;
+    @include versalita(10px, $dark);
+    @include transition(background-color $ts-ui, border-color $ts-ui, color $ts-ui);
+    @include foco;
+
+    &:hover {
+      border-color: $dark;
+      background-color: $dark;
+      color: $white;
+    }
+  }
+
+  &__back-arrow {
+    font-size: $fs-s;
+    letter-spacing: 0;
+    @include transition(transform $ts-ui);
+
+    .b-registro__back:hover & {
+      transform: translateX(-3px);
+    }
+  }
+
+  &__crumbs {
+    @include display-flex;
+    @include align-items(center);
+    gap: $h-unit-xs;
+    flex-wrap: wrap;
+    min-width: 0;
+    @include versalita(10px, $dark60);
+  }
+
+  &__crumb {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: $dark60;
+    cursor: pointer;
+    font: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    @include foco;
+
+    &:hover {
+      color: $dark;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+  }
+
+  &__crumb-sep {
+    color: $rule-strong;
+  }
+
+  &__crumb--current {
+    min-width: 0;
+    overflow: hidden;
+    color: $dark;
+    font-weight: $fw-semibold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  // ─── Diputados de un grupo ─────────────────────────────────────────
+
+  &__level {
+    @include display-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: $h-unit;
+    margin-top: $v-unit-m;
+    padding-bottom: $v-unit-s;
+    border-bottom: 1px solid $dark;
+  }
+
+  &__level-title {
+    font-size: $fs-xxl;
+    font-weight: $fw-bold;
+    letter-spacing: -0.015em;
+    color: $black;
+  }
+
+  &__people {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(238px, 1fr));
+    gap: $v-unit-xs;
+    margin-top: $v-unit;
+  }
+
+  &__person {
+    @include display-flex;
+    @include align-items(center);
+    gap: $h-unit-s;
+    width: 100%;
+    padding: $v-unit-s $h-unit $v-unit-s $v-unit-s;
+    border: 1px solid $rule;
+    background-color: $white;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+    // El canto verde entra por dentro: con `border-left` la fila se
+    // movería 3px al pasar por encima.
+    box-shadow: inset 3px 0 0 transparent;
+    @include transition(border-color $ts-ui, box-shadow $ts-ui);
+    @include foco;
+
+    &:hover {
+      border-color: $dark;
+      box-shadow: inset 3px 0 0 $primary;
+    }
+  }
+
+  // Cuadrada y a sangre, como la foto de carné que acompaña al impreso.
+  &__person-photo {
+    @include display-flex;
+    @include flex-center;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: $dark;
+    color: $primary;
+    font-weight: $fw-bold;
+    font-size: $fs-s;
+    object-fit: cover;
+  }
+
+  &__person-text {
+    min-width: 0;
+  }
+
+  &__person-name {
+    display: block;
+    font-size: $fs-s;
+    font-weight: $fw-semibold;
+    color: $dark;
+    line-height: 1.25;
+  }
+
+  &__person-meta {
+    display: block;
+    margin-top: 3px;
+    @include versalita(9px, $dark60);
+  }
+
+  // ─── Avisos ────────────────────────────────────────────────────────
+
+  &__notice {
+    position: relative;
+    margin-top: $v-unit-m;
+    padding: $v-unit-m;
+    border: 1px solid $rule;
+    background-color: $gray;
+
+    &--error {
+      border-color: $dark;
+      background-color: $white;
+    }
+  }
+
+  &__notice-label {
+    display: block;
+    margin-bottom: 6px;
+    @include versalita(10px, $dark);
+  }
+
+  &__notice-text {
+    font-size: $fs-s;
+    line-height: $lh-medium;
+    color: $dark80;
+  }
+
+  // Barra de actividad del aviso de carga: el tercer y último verde.
+  &__notice-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    overflow: hidden;
+    background-color: $dark10;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 35%;
+      height: 100%;
+      background-color: $primary;
+      animation: b-registro-carga 1.4s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes b-registro-carga {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(386%);
+  }
+}
+
+// La barra es la única animación de la página; quien pida menos
+// movimiento se queda con el filete quieto, que sigue diciendo lo mismo.
+@media (prefers-reduced-motion: reduce) {
+  .b-registro__notice-bar::after {
+    width: 100%;
+    animation: none;
+  }
+}

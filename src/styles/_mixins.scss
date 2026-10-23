@@ -1,0 +1,46 @@
+// Mixins que usa el bloque b-declaracion, copiados de
+// parlamentia-web/src/styles/config/mixins.scss sin cambios.
+
+@mixin transition($transition...) {
+  -moz-transition: $transition;
+  -o-transition: $transition;
+  -webkit-transition: $transition;
+  transition: $transition;
+}
+
+@mixin display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@mixin align-items($variable) {
+  -webkit-box-align: $variable;
+  -ms-flex-align: $variable;
+  align-items: $variable;
+}
+
+// Fuente local: los .woff/.woff2 de Graphik viven en public/fonts/,
+// así que la URL es absoluta respecto a la raíz servida por Vite.
+@mixin graphik-face($file, $weight, $style: normal) {
+  @font-face {
+    font-family: "Graphik";
+    src: url("/fonts/#{$file}.woff2") format("woff2"),
+      url("/fonts/#{$file}.woff") format("woff");
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "declaraciones-bienes-viz",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "homepage": "https://newtral-datos.github.io/declaraciones-bienes-viz-svelte/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Newtral-datos/declaraciones-bienes-viz-svelte.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -t -r https://github.com/Newtral-datos/declaraciones-bienes-viz-svelte.git -m \"Deploy de la visualizacion de declaraciones de bienes\""
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.0",
+    "gh-pages": "^6.3.0",
+    "sass": "^1.80.0",
+    "svelte": "^5.2.0",
+    "vite": "^5.4.0"
+  }
+}

@@ -1,0 +1,139 @@
+// Lo mínimo del chasis de parlamentia-web que la ficha necesita para
+// verse igual: reset, fuente Graphik, .container, .c-title y .c-content.
+// Mismos valores que el original.
+//
+// La cabecera .b-header estaba aquí y ya no: la portada tiene la suya
+// (b-registro__masthead), que no es la del resto del sitio.
+
+@use "basic" as *;
+@use "mixins" as *;
+@use "breakpoints" as *;
+
+@include graphik-face("Graphik-Regular", $fw-normal);
+@include graphik-face("Graphik-Medium", $fw-medium);
+@include graphik-face("Graphik-Semibold", $fw-semibold);
+@include graphik-face("Graphik-Bold", $fw-bold);
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $white;
+  color: $dark;
+  font-family: $ff-main;
+  font-size: $fs-m;
+  font-weight: $fw-normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+}
+
+// .container — common/common.scss
+.container {
+  width: 100%;
+  max-width: $container-width;
+  margin: 0 auto;
+
+  @include respond-below(lg) {
+    padding-left: $h-unit;
+    padding-right: $h-unit;
+  }
+}
+
+// .c-title — common/titles.scss
+.c-title {
+  color: $black;
+  font-weight: $fw-semibold;
+
+  &--xxxxl {
+    font-weight: $fw-bold;
+  }
+
+  @include respond-above(sm) {
+    &--xxxxl {
+      font-size: $fs-xxl;
+    }
+
+    &--xxl {
+      font-size: $fs-xxl;
+    }
+
+    &--xl {
+      font-size: $fs-xl;
+    }
+
+    &--mbottom {
+      margin-bottom: $h-unit-l;
+    }
+  }
+
+  @include respond-below(sm) {
+    &--xxxxl {
+      font-size: $fs-xxl;
+    }
+
+    &--xxl {
+      font-size: $fs-l;
+    }
+
+    &--xl {
+      font-size: $fs-m;
+    }
+
+    &--mbottom {
+      margin-bottom: $h-unit-m;
+    }
+  }
+}
+
+// .c-content — common/content.scss
+.c-content {
+  font-size: $fs-s;
+  line-height: $lh-medium;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.page-content {
+  padding-bottom: $v-unit-xl;
+}

@@ -1,0 +1,36 @@
+// Mapa de breakpoints y mixins respond-* de
+// parlamentia-web/src/styles/config/breakpoints.scss (mismos valores).
+
+@use "sass:map";
+
+$breakpoints: (
+  xs: 415px,
+  sm: 768px,
+  md: 992px,
+  tb: 1025px,
+  lg: 1201px,
+  pw: 1500px,
+  xl: 1921px,
+);
+
+// @include respond-above(sm) {}
+@mixin respond-above($breakpoint) {
+  @if map.has-key($breakpoints, $breakpoint) {
+    @media (min-width: map.get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
+
+// @include respond-below(sm) {}
+@mixin respond-below($breakpoint) {
+  @if map.has-key($breakpoints, $breakpoint) {
+    @media (max-width: (map.get($breakpoints, $breakpoint) - 1)) {
+      @content;
+    }
+  } @else {
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
+}
