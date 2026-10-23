@@ -123,7 +123,7 @@
       return `${cuantas} ${unidad} de ${declaraciones.length}`;
     }
     if (vista === 'grupos') {
-      return `${cuantas} ${unidad} · ${grupos.length} grupos`;
+      return `${cuantas} ${unidad} | ${grupos.length} grupos`;
     }
     return `${cuantas} ${unidad}`;
   });
@@ -213,7 +213,7 @@
     <span class="b-registro__result-text">
       <span class="b-registro__result-name">{declaracion.nombre}</span>
       <span class="b-registro__result-meta">
-        {partidoDe(declaracion)} · {declaracion.circunscripcion || '—'}
+        {partidoDe(declaracion)} | {declaracion.circunscripcion || '—'}
       </span>
     </span>
     <span class="b-registro__result-dots" aria-hidden="true"></span>

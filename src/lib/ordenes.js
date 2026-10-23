@@ -1,7 +1,9 @@
 // Órdenes en los que se puede consultar el índice.
 //
-// Cada uno saca su cifra de UNA sección del impreso y la etiqueta con el
-// nombre de esa sección. Dos cosas que no hace, y no por descuido:
+// Cada uno saca su cifra de UN sitio y la etiqueta con el nombre de ese
+// sitio: cuatro de una sección del impreso, y el del IRPF de la cifra de
+// cabecera que lleva ese nombre. Dos cosas que no hace, y no por
+// descuido:
 //
 //   - No suma secciones entre sí. Un total tendría que dejar fuera el
 //     valor de los inmuebles, que el formulario oficial no pide: saldría
@@ -51,6 +53,16 @@ function cuentaDe(filas) {
   return { valor: (filas || []).length, incompleta: false };
 }
 
+// El IRPF no es una sección del impreso —no es un array de partidas, sino
+// una cifra sola de la cabecera—, así que aquí no hay nada que sumar ni
+// que contar: sólo respetar el hueco. Sin dato no es «pagó 0 €», es que no
+// consta, y con null cae al final de la clasificación como las secciones
+// vacías. Hoy las 51 declaraciones publicadas lo traen, pero el campo
+// admite null y en el maestro hay 23 filas sin él.
+function cifraDe(valor) {
+  return { valor: valor ?? null, incompleta: false };
+}
+
 const plural = (valor, singular, plural) => `${valor} ${valor === 1 ? singular : plural}`;
 
 export const ORDENES = [
@@ -88,6 +100,16 @@ export const ORDENES = [
     titulo: 'Más rentas anuales declaradas',
     nota: 'Suma las rentas anuales que declara cada diputado. No es su patrimonio: son ingresos de un año.',
     cifra: declaracion => sumaDe(declaracion.rentas, 'euros'),
+    formato: formatEuros,
+  },
+  // Detrás de Rentas, que es la cifra con la que se lee: las dos van del
+  // mismo año y son las dos únicas en euros que no son patrimonio.
+  {
+    clave: 'irpf',
+    etiqueta: 'IRPF',
+    titulo: 'Más IRPF pagado',
+    nota: 'El IRPF que consta pagado en cada declaración, la misma cifra que da la ficha. No sale de ninguna sección del impreso, así que no es una suma de partidas; y puesta al lado de las rentas tampoco es un tipo efectivo, que dependería de deducciones y de rentas que el formulario no pide.',
+    cifra: declaracion => cifraDe(declaracion.irpf_pagado),
     formato: formatEuros,
   },
 ];

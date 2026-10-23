@@ -3,7 +3,7 @@
   import TransparentiaCard from './TransparentiaCard.svelte';
   import CategoriaCard from './CategoriaCard.svelte';
   import { CATEGORIAS } from './categorias.js';
-  import { formatEuros } from './formato.js';
+  import { formatEuros, enFemenino } from './formato.js';
 
   let { declaracion } = $props();
 
@@ -24,8 +24,14 @@
       filas: declaracion.bienes_inmuebles,
       render: r => ({
         label: r.clase,
-        meta: `${r.situacion || '—'} · ${r.fecha_adquisicion || '—'}`,
+        meta: `${r.situacion || '—'} | ${r.fecha_adquisicion || '—'}`,
         value: r.derecho_titulo,
+        // El único valor del impreso que no es una cifra ni una fecha: el
+        // título de propiedad, texto libre que llega a 54 caracteres
+        // («12,48% PLENO DOMINIOHERENCIA GRUCOCA INMOBILIARIA S.L.»).
+        // Sin esto se pinta como una cifra —en una línea y sin encogerse—
+        // y se sale de la tarjeta.
+        texto: true,
       }),
     },
     {
@@ -67,17 +73,19 @@
       nombre={declaracion.nombre}
       fotoUrl={declaracion.foto_url}
     />
-    <div>
+    <div class="b-declaracion__profile-identity">
       <h4 class="c-title c-title--xl b-declaracion__profile-name">{declaracion.nombre}</h4>
       <div class="b-declaracion__profile-tags">
         <span class="b-declaracion__tag">
-          {declaracion.cargo} · {declaracion.circunscripcion || '—'}
+          {enFemenino(declaracion.cargo, declaracion.genero)} | {declaracion.circunscripcion || '—'}
         </span>
         {#if declaracion.partido}
           <span class="b-declaracion__tag">{declaracion.partido}</span>
         {/if}
         {#if declaracion.estado_civil}
-          <span class="b-declaracion__tag">{declaracion.estado_civil}</span>
+          <span class="b-declaracion__tag">
+            {enFemenino(declaracion.estado_civil, declaracion.genero)}
+          </span>
         {/if}
         <!-- Sólo si la hay: sin PDF no se puede afirmar de qué día es el
              impreso, y una etiqueta con un guión ocupa el mismo sitio sin

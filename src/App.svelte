@@ -31,16 +31,27 @@
   <header class="b-registro__masthead">
     <div class="container b-registro__masthead-inner">
       <p class="b-registro__admin">
-        <span>Congreso de los Diputados · Legislatura XV</span>
+        <span>Diputación Permanente del Congreso | XV Legislatura</span>
         <span>Fuente: congreso.es</span>
       </p>
+
+      <!-- Vive en public/, así que la URL cuelga de BASE_URL como la del
+           JSON: en GitHub Pages la viz no está en la raíz del dominio.
+           Las medidas van en el atributo para que el hueco esté reservado
+           antes de que cargue y la cabecera no dé un salto. -->
+      <img
+        class="b-registro__logo"
+        src="{import.meta.env.BASE_URL}logo_newtral.png"
+        alt="Newtral"
+        width="1143"
+        height="236"
+      />
 
       <h1 class="b-registro__title">Declaraciones de bienes y rentas</h1>
 
       <p class="b-registro__lede">
-        Rentas, inmuebles, depósitos, vehículos y deudas de cada diputado, tal y como los declara
-        ante el Congreso. Cada ficha se transcribe del PDF oficial y se revisa a mano, dato por
-        dato.
+        Rentas, inmuebles, depósitos, vehículos y deudas de cada diputado
+        de la diputación Permanente, tal y como los declara ante el Congreso.
       </p>
 
       <!-- El sello se pinta desde el principio con guiones en lugar de las
@@ -53,7 +64,7 @@
           {totalGrupos || '—'} grupos parlamentarios
         </span>
         <span class="b-registro__stamp-rule"></span>
-        <span class="b-registro__stamp-ref">Libro II · Legislatura XV</span>
+        <span class="b-registro__stamp-ref">Libro II | Legislatura XV</span>
       </div>
     </div>
   </header>

@@ -1,6 +1,6 @@
 <script>
   import logoTransparentia from '../assets/logo_transparentia.png';
-  import { formatEuros } from './formato.js';
+  import { formatEuros, enFemenino } from './formato.js';
 
   let { declaracion } = $props();
 </script>
@@ -18,7 +18,9 @@
     <div class="b-declaracion__transparentia-info">
       <span class="b-declaracion__transparentia-name">{declaracion.nombre}</span>
       <span class="b-declaracion__transparentia-role">
-        {declaracion.cargo}{declaracion.circunscripcion ? ` de ${declaracion.circunscripcion}` : ''}
+        {enFemenino(declaracion.cargo, declaracion.genero)}{declaracion.circunscripcion
+          ? ` de ${declaracion.circunscripcion}`
+          : ''}
       </span>
       {#if declaracion.sueldo_real_euros != null}
         <span class="b-declaracion__transparentia-salary">

@@ -72,3 +72,16 @@ $rule-strong: rgba($dark, 0.3);
 // $ts-fast (0.3s) se arrastra en un hover; para el estado de un botón o
 // una fila, esto.
 $ts-ui: 140ms;
+
+// Fotos de carné. Es la única excepción a las esquinas cuadradas: la foto
+// viene en vertical y entra en un hueco cuadrado, así que el canto
+// redondeado y el paspartú son los que dicen que el recorte es un
+// encuadre y no un corte. El radio va por tamaño de foto para que la
+// curva se vea igual de suave en 32px que en 64px.
+$foto-paspartu: 2px;
+$foto-radio-s: 6px;
+$foto-radio-m: 8px;
+$foto-radio-l: 10px;
+// El encuadre: cover centrado decapita: la cara de una foto de carné
+// está en el tercio alto, no en el medio.
+$foto-encuadre: center 20%;

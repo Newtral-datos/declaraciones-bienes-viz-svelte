@@ -7,9 +7,11 @@
 // reglas que se aplican en todo el fichero:
 //
 //   - Ninguna esquina redondeada. En el impreso no hay ninguna.
-//   - El verde de marca significa *verificado*, nada más: el filete del
-//     sello, el canto del diputado señalado y la barra de carga. Si se
-//     usa para decorar, deja de querer decir algo.
+//   - El verde de marca tiene dos oficios y sólo dos: decir *verificado*
+//     (el filete del sello, el canto del diputado señalado, la barra de
+//     carga) y rellenar lo que se pulsa —pestaña de orden activa, Borrar
+//     del buscador, enlace al PDF de la ficha—, siempre con la tinta en
+//     negro encima. Fuera de eso no decora nada.
 
 @use "basic" as *;
 @use "mixins" as *;
@@ -44,6 +46,16 @@
   @include respond-above(sm) {
     min-width: 96px;
   }
+
+  // En móvil el título va encima de su mando, no al lado: con 350px de
+  // ancho, la columna que le quedaba a las pestañas de orden las partía
+  // en tres renglones. Y puesto encima, el filete vertical ya no separa
+  // nada: lo que lo sustituye es el salto de línea.
+  @include respond-below(sm) {
+    padding-right: 0;
+    padding-top: $v-unit-xs;
+    border-right: 0;
+  }
 }
 
 // Puntos conductores, como en el índice de cualquier impreso: llevan el
@@ -59,33 +71,67 @@
 .b-registro {
   // ─── Cabecera ──────────────────────────────────────────────────────
 
-  &__masthead {
-    border-top: 2px solid $dark;
-  }
+  // Sin filete de cabeza: la viz se embute en otra página y una barra
+  // negra a sangre en la primera línea no cerraba nada, se leía como el
+  // borde de la página de arriba. La cabecera abre con el renglón
+  // administrativo.
 
   // Dos columnas: el texto a la izquierda, el sello arriba a la derecha,
-  // como en el impreso escaneado. Por debajo de md se apilan y el sello
-  // pasa a ser un bloque más, sin girar.
+  // como en el impreso escaneado. Aguanta hasta los 768px: a ese ancho el
+  // titular todavía tiene 440px de columna.
+  //
+  // En móvil no hay sello (ver __stamp), así que no hay dos columnas:
+  // antetítulo, titular y subtítulo en una sola, cada uno a todo el ancho.
   &__masthead-inner {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
+    // El logo va en su propio renglón y cruzando las dos columnas, no
+    // dentro de la fila del antetítulo: ahí habría encogido esa fila a la
+    // primera columna y «Fuente: congreso.es», que va a su extremo
+    // derecho, se habría metido 300px hacia dentro. Cruzando, el
+    // antetítulo sigue yendo de margen a margen y el logo cae justo
+    // debajo de su esquina.
     grid-template-areas:
       "admin admin"
+      "logo  logo"
       "title stamp"
       "lede  stamp";
     column-gap: $h-unit-xl;
     align-items: start;
     padding-top: $v-unit;
-    padding-bottom: 52px;
+    // Ojo al cambiarlo: lo que separa el subtítulo del índice es esto más
+    // el `margin-top` de __index, y los dos se suman. Entre los dos eran
+    // 84px y la cabecera se leía como otra página.
+    padding-bottom: $v-unit-l;
 
-    @include respond-below(md) {
+    @include respond-below(sm) {
       grid-template-columns: minmax(0, 1fr);
       grid-template-areas:
         "admin"
+        "logo"
         "title"
-        "lede"
-        "stamp";
-      padding-bottom: $v-unit-l;
+        "lede";
+      padding-bottom: $v-unit;
+    }
+  }
+
+  // El logo de la casa, debajo del antetítulo y pegado a la derecha, que
+  // es donde se firma. Se le da el alto y el ancho sale solo: la marca es
+  // una palabra tumbada (1143 × 236) y lo que hay que fijar de ella es la
+  // altura de la x, no el ancho.
+  //
+  // El aire de encima lo pone el `padding-bottom` del antetítulo, que son
+  // 20px; el de debajo va aquí y es mayor porque lo que viene después es
+  // el titular, que pesa mucho más que un renglón de 10px.
+  &__logo {
+    grid-area: logo;
+    justify-self: end;
+    height: 24px;
+    width: auto;
+    margin-bottom: $v-unit;
+
+    @include respond-below(sm) {
+      height: 20px;
     }
   }
 
@@ -97,6 +143,17 @@
     flex-wrap: wrap;
     padding-bottom: $v-unit-m;
     @include versalita(10px, $dark60);
+
+    // Los dos renglones no caben en una línea de móvil —el primero ya
+    // mide 350px él solo contra los 343px de ancho útil—, y repartidos a
+    // los extremos con `space-between` el segundo caía solo con los 16px
+    // de hueco del flex: demasiado aire entre dos líneas que son el mismo
+    // dato administrativo. En columna y a 4px se leen como las dos líneas
+    // de un sello de registro.
+    @include respond-below(sm) {
+      flex-direction: column;
+      gap: 4px;
+    }
   }
 
   &__title {
@@ -139,9 +196,16 @@
       0 0 0 4px $dark;
     transform: rotate(-1.2deg);
 
-    @include respond-below(md) {
-      justify-self: start;
-      margin-top: $v-unit-l;
+    // Fuera en móvil, y no achicado: es un sello de registro, con su
+    // recuadro, su giro y cuatro renglones dentro, y en 343px de ancho
+    // cualquier sitio donde se ponga es sitio que le quita al titular. A
+    // su lado se lo comía todo; debajo era un bloque más en una columna
+    // donde ya hay tres; y encima del titular, en la esquina, le abría un
+    // hueco a cuenta de ser más alto que el antetítulo. Lo que decía —el
+    // recuento y que está verificado a mano— lo sigue diciendo la nota de
+    // la cabecera del índice, que en móvil queda a dos dedos.
+    @include respond-below(sm) {
+      display: none;
     }
   }
 
@@ -175,8 +239,11 @@
 
   // ─── Índice de grupos ──────────────────────────────────────────────
 
+  // La otra mitad de la separación con la cabecera (ver __masthead-inner),
+  // y también lo que separa el índice del rastro de navegación en los
+  // niveles 2 y 3.
   &__index {
-    margin-top: $v-unit-l;
+    margin-top: $v-unit-m;
   }
 
   // Filete de cabeza de tabla: cierra el encabezado y hace de borde
@@ -185,7 +252,10 @@
     @include display-flex;
     justify-content: space-between;
     align-items: baseline;
-    gap: $h-unit;
+    // El recuento cae debajo del título cuando no caben en la misma
+    // línea, en vez de empujarlo fuera del filete.
+    flex-wrap: wrap;
+    gap: 2px $h-unit;
     padding-bottom: $v-unit-s;
     border-bottom: 1px solid $dark;
   }
@@ -222,6 +292,12 @@
     &:hover {
       --punto: #{$dark};
       background-color: $gray;
+    }
+
+    // Abajo se esconde la flecha en móvil; si la columna se quedara
+    // declarada, su hueco vacío seguiría cobrando el gap.
+    @include respond-below(sm) {
+      grid-template-columns: auto 1fr auto;
     }
   }
 
@@ -277,6 +353,11 @@
     gap: $h-unit-s;
     padding: 0 $h-unit-s;
     border-bottom: 1px solid $rule;
+
+    @include respond-below(sm) {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0;
+    }
   }
 
   &__order-label {
@@ -288,16 +369,35 @@
     flex-wrap: wrap;
     gap: 6px;
     padding: 7px 0;
+
+    // En escritorio los órdenes caben en una línea y el ancho de cada
+    // pestaña es el de su palabra. En móvil no caben: los seis botones
+    // piden 467px y la fila da 323, así que el flex los partía con los
+    // anchos de la palabra de cada uno (62, 87, 87, 88, 66, 47) y no
+    // coincidía un canto con otro. En rejilla de tres columnas iguales
+    // —103px, y el más largo, «Vehículos», mide 88— todos miden lo mismo
+    // y las columnas se alinean entre filas.
+    @include respond-below(sm) {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      padding: 6px 0 $v-unit-s;
+    }
   }
 
   &__order-tab {
     padding: 5px $h-unit-xs;
-    border: 1px solid $rule;
     background-color: $white;
+    border: 1px solid $rule;
     cursor: pointer;
     @include versalita(10px, $dark60);
     @include transition(background-color $ts-ui, border-color $ts-ui, color $ts-ui);
     @include foco;
+
+    // Con el dedo: 5px de relleno dejan un blanco de 26px, por debajo de
+    // lo que se acierta sin apuntar.
+    @include respond-below(sm) {
+      padding: $v-unit-xs $h-unit-s;
+    }
 
     &:hover {
       border-color: $rule-strong;
@@ -305,14 +405,15 @@
       color: $dark;
     }
 
-    // El activo va relleno de tinta, como el hover de los demás botones
-    // de la página; el hover de los inactivos se queda en gris para que
-    // no haya dos cosas que parezcan lo mismo.
+    // El activo va relleno del verde de marca con la tinta en negro, igual
+    // que los demás botones de acción de la página; el hover de los
+    // inactivos se queda en gris para que no haya dos cosas que parezcan
+    // lo mismo.
     &--activo,
     &--activo:hover {
-      border-color: $dark;
-      background-color: $dark;
-      color: $white;
+      border-color: $primary;
+      background-color: $primary;
+      color: $black;
     }
   }
 
@@ -330,11 +431,22 @@
     &:focus-within {
       box-shadow: inset 0 -2px 0 $dark;
     }
+
+    // El título de campo ocupa su propio renglón y debajo quedan el campo
+    // y Borrar, que es donde hace falta todo el ancho.
+    @include respond-below(sm) {
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 0 $h-unit-s;
+    }
   }
 
   &__search-label {
     @extend %etiqueta-campo;
     cursor: pointer;
+
+    @include respond-below(sm) {
+      grid-column: 1 / -1;
+    }
   }
 
   &__search-input {
@@ -360,18 +472,25 @@
     }
   }
 
+  // Relleno de verde como los demás botones de acción. Al dejar de ser
+  // texto suelto necesita aire a los lados, y el subrayado del hover sobra:
+  // lo que cambia al pasar por encima es el relleno.
   &__search-clear {
-    padding: 6px 0;
+    padding: 6px $h-unit-xs;
     border: 0;
-    background: none;
+    background-color: $primary;
     cursor: pointer;
-    @include versalita(9px, $dark60);
+    @include versalita(9px, $black);
+    @include transition(background-color $ts-ui);
     @include foco;
 
     &:hover {
-      color: $dark;
-      text-decoration: underline;
-      text-underline-offset: 3px;
+      background-color: $primary-dark;
+    }
+
+    // Igual que las pestañas de orden: con el dedo, 23px de alto es poco.
+    @include respond-below(sm) {
+      padding: $v-unit-xs $h-unit-s;
     }
   }
 
@@ -400,17 +519,24 @@
     }
   }
 
+  // Foto de carné enmarcada: el fondo oscuro asoma por el padding y hace
+  // de paspartú, y el filete cierra el marco. Cuando no hay foto, ese
+  // mismo fondo es la chapa de las iniciales.
   &__result-photo {
     @include display-flex;
     @include flex-center;
     width: 32px;
     height: 32px;
     flex-shrink: 0;
+    padding: 1px;
+    border-radius: $foto-radio-s;
     background-color: $dark;
+    box-shadow: 0 0 0 1px $rule;
     color: $primary;
     font-weight: $fw-bold;
     font-size: $fs-xs;
     object-fit: cover;
+    object-position: $foto-encuadre;
   }
 
   // El puesto en la clasificación. Tabular y a la derecha para que las
@@ -478,6 +604,29 @@
     &__result-dots {
       display: none;
     }
+
+    // Sin los puntos, que son los que estiraban la fila, el nombre pasa a
+    // ser la parte elástica: si no, la cifra se queda pegada al nombre
+    // con la mitad derecha de la fila en blanco y deja de leerse como una
+    // columna de cifras.
+    &__result-text {
+      flex: 1;
+    }
+
+    // Grupo y circunscripción en un renglón y hasta donde llegue: con el
+    // nombre completo arriba, dos líneas de letra pequeña abultaban la
+    // fila al doble.
+    &__result-meta {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    // La flecha sólo se ve al pasar por encima, y en una pantalla táctil
+    // no se pasa por encima de nada: lo que ocupa es sitio.
+    &__party-go {
+      display: none;
+    }
   }
 
   // ─── Notas ─────────────────────────────────────────────────────────
@@ -527,6 +676,10 @@
       border-color: $dark;
       background-color: $dark;
       color: $white;
+    }
+
+    @include respond-below(sm) {
+      padding: 12px $h-unit;
     }
   }
 
@@ -629,18 +782,23 @@
     }
   }
 
-  // Cuadrada y a sangre, como la foto de carné que acompaña al impreso.
+  // La foto de carné del impreso, pero pegada con marco: ver
+  // &__result-photo.
   &__person-photo {
     @include display-flex;
     @include flex-center;
     width: 44px;
     height: 44px;
     flex-shrink: 0;
+    padding: $foto-paspartu;
+    border-radius: $foto-radio-m;
     background-color: $dark;
+    box-shadow: 0 0 0 1px $rule;
     color: $primary;
     font-weight: $fw-bold;
     font-size: $fs-s;
     object-fit: cover;
+    object-position: $foto-encuadre;
   }
 
   &__person-text {

@@ -28,24 +28,50 @@
     @include align-items(center);
     gap: $h-unit-m;
     flex-wrap: wrap;
+
+    @include respond-below(sm) {
+      gap: $v-unit $h-unit-s;
+    }
   }
 
-  // Cuadrada y a sangre, como la foto de carné que acompaña al impreso.
+  // Foto y nombre van juntos en la misma línea hasta donde se pueda, así
+  // que esta columna es la elástica. El min-width: 0 es lo que deja que
+  // un «José Antonio Bermúdez de Castro Fernández» se parta en vez de
+  // estirar la cabecera y sacar scroll horizontal en el móvil.
+  &__profile-identity {
+    flex: 1 1 220px;
+    min-width: 0;
+  }
+
+  // La foto de carné del impreso, pero pegada con marco: ver
+  // b-registro__result-photo.
   &__profile-avatar {
     @include display-flex;
     @include flex-center;
     width: 64px;
     height: 64px;
     flex-shrink: 0;
+    padding: $foto-paspartu;
+    border-radius: $foto-radio-l;
     background-color: $dark;
+    box-shadow: 0 0 0 1px $rule;
     color: $primary;
     font-weight: $fw-bold;
     font-size: $fs-xl;
     object-fit: cover;
+    object-position: $foto-encuadre;
   }
 
   &__profile-name {
     margin: 0;
+
+    // La escala de .c-title--xl deja el nombre en 16px por debajo de sm,
+    // el mismo cuerpo que el texto corrido: en móvil dejaba de leerse
+    // como el titular de la ficha, que es lo que es. Gana por orden de
+    // declaración (este fichero va después de base en main.scss).
+    @include respond-below(sm) {
+      font-size: $fs-l;
+    }
   }
 
   &__profile-tags {
@@ -77,6 +103,15 @@
     flex: 0 1 300px;
     min-width: 0;
     margin-left: auto;
+
+    // En móvil baja a su propio renglón y lo ocupa entero: con 300px
+    // justos y el `margin-left: auto`, la tarjeta se quedaba arrimada a
+    // la derecha con un canal de blanco a la izquierda que no separaba
+    // nada.
+    @include respond-below(sm) {
+      flex: 1 1 100%;
+      margin-left: 0;
+    }
   }
 
   &__link {
@@ -84,19 +119,22 @@
     @include flex-center;
     gap: $h-unit-xs;
     padding: 10px $h-unit;
-    border: $border-xs $rule;
-    background-color: $white;
+    border: $border-xs $primary;
+    background-color: $primary;
     font-size: 10px;
     font-weight: $fw-medium;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    color: $dark;
+    color: $black;
     @include transition(background-color $ts-ui, border-color $ts-ui, color $ts-ui);
 
+    // Relleno de verde en reposo, así que el hover sólo puede ir hacia
+    // abajo: el verde oscuro de marca, que con la tinta en negro mantiene
+    // el contraste.
     &:hover {
-      border-color: $dark;
-      background-color: $dark;
-      color: $white;
+      border-color: $primary-dark;
+      background-color: $primary-dark;
+      color: $black;
     }
 
     &:focus-visible {
@@ -179,6 +217,16 @@
     padding: $v-unit-m 0;
     border-top: $border-xs $rule;
     border-bottom: $border-xs $rule;
+
+    // En móvil, rejilla de dos y no cinco cifras en fila: con 64px de
+    // calle entre columnas cabía una por renglón y el bloque medía media
+    // pantalla de alto. En dos columnas se comparan de un vistazo, que es
+    // para lo que están.
+    @include respond-below(sm) {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: $v-unit $h-unit;
+    }
   }
 
   &__stat-value {
@@ -187,6 +235,12 @@
     color: $dark;
     font-variant-numeric: tabular-nums;
     line-height: 1.1;
+
+    // 24px no cabe en media pantalla: «1.944.473,00 €» se partía en dos
+    // renglones y descuadraba la rejilla.
+    @include respond-below(sm) {
+      font-size: $fs-xl;
+    }
   }
 
   // En versalitas, como los títulos de campo del impreso y los de la
@@ -215,6 +269,12 @@
   &__card {
     border: $border-xs $rule;
     padding: $v-unit-m;
+
+    // 20px de margen a cada lado se comen una décima parte del ancho de
+    // la pantalla, y lo que hay dentro son conceptos largos.
+    @include respond-below(sm) {
+      padding: $v-unit $h-unit;
+    }
 
     &--empty {
       background-color: $gray;
@@ -262,6 +322,34 @@
 
     &:not(:last-child) {
       border-bottom: $border-xs $rule;
+    }
+
+    // Filas cuyo valor es texto libre y no una cifra: hoy, el título de
+    // propiedad de los inmuebles. El nowrap y el flex-shrink: 0 de
+    // __row-value están para que no se parta un importe, pero aplicados
+    // a 54 caracteres sacaban la línea de la tarjeta y con ella el
+    // scroll horizontal de toda la página: se veía en las fichas con
+    // muchos inmuebles, como la de Manuel Cobo Vega.
+    &--texto {
+      .b-declaracion__row-value {
+        flex-shrink: 1;
+        min-width: 0;
+        text-align: right;
+        white-space: normal;
+        font-variant-numeric: normal;
+      }
+
+      // En móvil no cabe ni partido en media fila: el concepto en un
+      // renglón y el título debajo, alineados a la izquierda los dos.
+      @include respond-below(sm) {
+        @include align-items(stretch);
+        flex-direction: column;
+        gap: 2px;
+
+        .b-declaracion__row-value {
+          text-align: left;
+        }
+      }
     }
   }
 

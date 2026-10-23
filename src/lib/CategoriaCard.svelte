@@ -1,7 +1,9 @@
 <script>
   // meta: { titulo, icon (svg), color, bg } de CATEGORIAS
   // filas: array de partidas de la declaración
-  // render: fila -> { label, meta?, value? }
+  // render: fila -> { label, meta?, value?, texto? }
+  //   texto: el valor es texto libre y no una cifra, así que se parte en
+  //   varias líneas en vez de mantenerse en una.
   let { meta, filas, render } = $props();
 
   let isEmpty = $derived(!filas || filas.length === 0);
@@ -20,7 +22,7 @@
   {:else}
     {#each filas as fila, index (index)}
       {@const row = render(fila)}
-      <div class="b-declaracion__row">
+      <div class="b-declaracion__row{row.texto ? ' b-declaracion__row--texto' : ''}">
         <span class="b-declaracion__row-label">
           {row.label}
           {#if row.meta}<span class="b-declaracion__row-meta">{row.meta}</span>{/if}
